@@ -40,19 +40,19 @@ profiles:
   #   url: https://www.instagram.com/
 
 education:
-  - area: PhD in Computer Science
+  - area: PhD in Computer Science (CMSC)
     institution: 
     date_start: 2021-01-01
-    date_end: present
+    date_end: 2025-05-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Current PhD program and research interest in the cross-section between _machine learning_ and _geospatial data analysis_. Supervised by [Prof Leila De Foloriani](https://users.umiacs.umd.edu/~deflo/). One paper accepted by CVPR2024 Workshop and one being reviewed by a conference.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+  - area: MPhil in Computer Science Engineering (CSE)
+    institution: Hong Kong University of Science and Technology
+    date_start: 2018-09-01
+    date_end: 2020-08-31
     summary: |
       GPA: 3.8/4.0
 
