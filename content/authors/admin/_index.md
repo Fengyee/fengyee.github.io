@@ -162,13 +162,15 @@ languages:
 awards:
   - title: "Chair's Graduate Fellowship"
     awarder: University of Maryland, College Park
-    date: '2021'
+    date: '2021-09-01'
     # summary: |
     #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: 'Simatelex Charitable Foundation Scholarship'
     awarder: Simatelex Charitable Foundation
+    date: '2015-09-01'
   - title: University’s Scholarship Scheme for Continuing Undergraduate Students
     awarder: Hong Kong University of Science and Technology
+    date: '2015-09-01'
 ---
 
 ## About Me
