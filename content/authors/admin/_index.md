@@ -158,31 +158,21 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Chair's Graduate Fellowship
+  - title: "Chair's Graduate Fellowship"
     url: https://anth.umd.edu/undergraduate/fellowships-and-stipends
     date: '2021 - 2023'
     awarder: University of Maryland, College Park
-    icon: custom/academic-cap
+    icon: "custom/academic-cap"
     # summary: |
     #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Simatelex Charitable Foundation Scholarship
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
+  - title: 'Simatelex Charitable Foundation Scholarship'
+    date: '2015 - 2018'
     awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    icon: Simatelex Charitable Foundation
+  - title: University’s Scholarship Scheme for Continuing Undergraduate Students
+    date: '2015 - 2018'
+    awarder: Hong Kong University of Science and Technology
+    icon: "custom/academic-cap"
 ---
 
 ## About Me
