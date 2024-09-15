@@ -52,8 +52,9 @@ sections:
         color: "#f7f7f7"
         text_color_light: false
   - block: collection
+    id: publications
     content:
-      title: Recent Publications
+      title: Publications
       text: ""
       filters:
         folders:
