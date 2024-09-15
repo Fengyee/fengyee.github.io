@@ -120,11 +120,16 @@ skills:
         percent: 100
         icon: python
       - name: C++
-        description: 'Implemented scale-space algorithms and data structures for analyzing triangulated irregular networks, following object-oriented programming principles. Optimized algorithm inference speed using parallel computation with the OpenMP library, improving efficiency by parallelizing tasks on leaf nodes in tree structures.'
+        description: |
+          Implemented scale-space algorithms and data structures for analyzing triangulated irregular networks, following object-oriented programming principles. 
+          Optimized algorithm inference speed using parallel computation with the OpenMP library, improving efficiency by parallelizing tasks on leaf nodes in tree structures.
         percent: 90
         icon: code-bracket
       - name: Others
-        description: 'Development primarily in Unix (CentOS) environments, managing computational tasks with SLURM. Practical experience in database management (MySQL, MongoDB) and professional engineering software (QGIS, MATLAB, MeshLab). Experienced in full-stack web development, including backend (NodeJS, PHP) and frontend (ReactJS).'
+        description: |
+          Development primarily in Unix (CentOS) environments, managing computational tasks with SLURM. 
+          Practical experience in database management (MySQL, MongoDB) and professional engineering software (QGIS, MATLAB, MeshLab). 
+          Experienced in full-stack web development, including backend (NodeJS, PHP) and frontend (ReactJS).
         percent: 85
         icon: wrench-screwdriver
   - name: Hobbies
@@ -132,17 +137,13 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Hiking
-        description: ![d](../avarta.jpg)
+        description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
+      - name: Cat
+        description: 'Her name is Bella'
         percent: 100
         icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
 
 languages:
   - name: English
@@ -161,6 +162,7 @@ languages:
 awards:
   - title: "Chair's Graduate Fellowship"
     awarder: University of Maryland, College Park
+    date: '2021'
     # summary: |
     #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: 'Simatelex Charitable Foundation Scholarship'
