@@ -42,7 +42,6 @@ featured: true
 #    url: https://twitter.com/georgecushen
 
 url_project: 'https://fengyee.github.io/implicit-terrain/'
-url_arxiv: 'https://arxiv.org/abs/2406.00227'
 url_slides: '/slides/ImplicitTerrain_slides.pdf'
 # url_video: 'https://youtube.com'
 

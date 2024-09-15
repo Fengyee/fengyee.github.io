@@ -39,6 +39,7 @@ sections:
   #   design:
   #     columns: '1'
   - block: markdown
+    id: news
     content:
       title: 'News'
       subtitle: ''
