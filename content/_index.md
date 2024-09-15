@@ -38,26 +38,18 @@ sections:
   #       Please reach out to collaborate 😃
   #   design:
   #     columns: '1'
-  - block: collection
-    id: news
+  - block: markdown
     content:
-      title: News
+      title: 'News'
       subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      text: |-
+        * [date] name1
+        * [date] name2
+        * [date] name3
     design:
-      # Choose a layout view
-      view: date-title-summary
       background:
-        color: lightgray
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+        color: "#f7f7f7"
+        text_color_light: true
   - block: collection
     content:
       title: Recent Publications
