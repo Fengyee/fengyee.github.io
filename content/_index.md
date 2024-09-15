@@ -77,4 +77,7 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
+      background:
+        color: "#f7f7f7"
+        text_color_light: false
 ---
