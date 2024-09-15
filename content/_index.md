@@ -22,14 +22,14 @@ sections:
       css_class: light
       background:
         color: system
-        image:
-          # Add your image background to `assets/media/`.
-          filename: ''
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+        # image:
+        #   # Add your image background to `assets/media/`.
+        #   filename: ''
+        #   filters:
+        #     brightness: 1.0
+        #   size: cover
+        #   position: center
+        #   parallax: false
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
@@ -49,7 +49,7 @@ sections:
     design:
       background:
         color: "#f7f7f7"
-        text_color_light: true
+        text_color_light: false
   - block: collection
     content:
       title: Recent Publications
