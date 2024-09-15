@@ -21,7 +21,7 @@ sections:
     design:
       css_class: light
       background:
-        color: white
+        color: system
         image:
           # Add your image background to `assets/media/`.
           filename: ''
