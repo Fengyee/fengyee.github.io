@@ -13,7 +13,7 @@ main:
   - name: Papers
     url: /#papers
     weight: 11
-  - name: Talks
+  - name: Presentations
     url: /#talks
     weight: 12
   - name: Experience
