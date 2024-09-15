@@ -12,7 +12,7 @@ location: 'Seattle Convention Center - Summit 335-336'
 #   postcode: '94305'
 #   country: United States
 
-summary: 'We present our CVPR 2024 paper *"ImplicitTerrain: a Continuous Surface Model for Terrain Data Analysis"* at the **1st Workshop on Implicit Neural Representation for Vision**'
+summary: 'We present our CVPR 2024 paper "ImplicitTerrain: a Continuous Surface Model for Terrain Data Analysis" at the 1st Workshop on Implicit Neural Representation for Vision'
 abstract: 'Digital terrain models (DTMs) are pivotal in remote sensing, cartography, and landscape management, requiring accurate surface representation and topological information restoration. While topology analysis traditionally relies on smooth manifolds, the absence of an easy-to-use continuous surface model for a large terrain results in a preference for discrete meshes. Structural representation based on topology provides a succinct surface description, laying the foundation for many terrain analysis applications. However, on discrete meshes, numerical issues emerge, and complex algorithms are designed to handle them. This paper brings the context of terrain data analysis back to the continuous world and introduces ImplicitTerrain, an implicit neural representation (INR) approach for modeling high-resolution terrain continuously and differentiably. Our comprehensive experiments demonstrate superior surface fitting accuracy, effective topological feature retrieval, and various topographical feature extraction that are implemented over this compact representation in parallel. To our knowledge, ImplicitTerrain pioneers a feasible continuous terrain surface modeling pipeline that provides a new research avenue for our community.'
 
 # Talk start and end times.
@@ -44,7 +44,7 @@ featured: true
 
 url_project: 'https://fengyee.github.io/implicit-terrain/'
 url_arxiv: 'https://arxiv.org/abs/2406.00227'
-url_slides: 'https://fengyee.github.io/static/slides/ImpliciTerrain_slides.pdf'
+url_slides: '/slides/ImpliciTerrain_slides.pdf'
 # url_video: 'https://youtube.com'
 
 # Markdown Slides (optional).
