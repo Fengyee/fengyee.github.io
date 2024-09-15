@@ -69,8 +69,6 @@ education:
     date_end: 2020-05-31
     summary: |
       GPA: 4.0/4.0
-
-      summary: |
       Thesis on *Linear structure vectorization in large-scale landscape point cloud*. Supervised by [Prof Long Quan](https://www.cse.ust.hk/~quan/).
   - area: BEng Dual Major in Computer Science Engineering and Electronic and Computer Engineering
     institution: Hong Kong University of Science and Technology
@@ -78,7 +76,6 @@ education:
     date_end: 2018-05-31
     summary: |
       GPA: 3.9/4.3
-      
       Courses included:
       - Discrete Math Tools
       - Advanced Computer Graphics
@@ -115,17 +112,20 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: 'Primary development language for published research, implementing machine learning algorithms using the PyTorch framework. Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming. Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.'
+        description: |
+          Primary development language for published research, implementing machine learning algorithms using the PyTorch framework.
+          Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming.
+          Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.'
         percent: 100
-        icon: code-bracket
+        icon: python
       - name: C++
         description: 'Implemented scale-space algorithms and data structures for analyzing triangulated irregular networks, following object-oriented programming principles. Optimized algorithm inference speed using parallel computation with the OpenMP library, improving efficiency by parallelizing tasks on leaf nodes in tree structures.'
         percent: 90
-        icon: binary
+        icon: code-bracket
       - name: Others
         description: 'Development primarily in Unix (CentOS) environments, managing computational tasks with SLURM. Practical experience in database management (MySQL, MongoDB) and professional engineering software (QGIS, MATLAB, MeshLab). Experienced in full-stack web development, including backend (NodeJS, PHP) and frontend (ReactJS).'
         percent: 85
-        icon: screwdriver-wrench
+        icon: wrench-screwdriver
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
