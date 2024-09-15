@@ -115,20 +115,25 @@ skills:
       - name: Python
         description: |
           Primary development language for published research, implementing machine learning algorithms using the PyTorch framework.
+          
           Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming.
+          
           Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.
         percent: 100
         icon: python
       - name: C++
         description: |
           Implemented scale-space algorithms and data structures for analyzing triangulated irregular networks, following object-oriented programming principles. 
+          
           Optimized algorithm inference speed using parallel computation with the OpenMP library, improving efficiency by parallelizing tasks on leaf nodes in tree structures.
         percent: 90
         icon: code-bracket
       - name: Others
         description: |
           Development primarily in Unix (CentOS) environments, managing computational tasks with SLURM. 
+          
           Practical experience in database management (MySQL, MongoDB) and professional engineering software (QGIS, MATLAB, MeshLab). 
+          
           Experienced in full-stack web development, including backend (NodeJS, PHP) and frontend (ReactJS).
         percent: 85
         icon: wrench-screwdriver
