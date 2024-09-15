@@ -112,7 +112,7 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description:
+        description: |
           1. Primary development language for published research, implementing machine learning algorithms using the PyTorch framework.
           2. Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming.
           3. Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.
@@ -131,7 +131,7 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Hiking
-        description: ![d](/workspaces/fengyee.github.io/content/authors/admin/avarta.jpg)
+        description: ![d](./content/authors/admin/avarta.jpg)
         percent: 60
         icon: person-simple-walk
       - name: Cats
