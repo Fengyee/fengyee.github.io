@@ -10,9 +10,6 @@ main:
   - name: News
     url: /#news
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
   - name: Presentations
     url: /#talks
     weight: 12

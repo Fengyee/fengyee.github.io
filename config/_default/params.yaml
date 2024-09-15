@@ -17,7 +17,7 @@ marketing:
     description: 'Academic website of Haoan Feng'
     twitter: 'Fengyee_HF'
   analytics:
-    google_analytics: 'nqwrJkNn0-ueqOOJH1fGr6i69bB0KaRObU0h4J9zNUI'
+    google_analytics: ''
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -58,6 +58,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
