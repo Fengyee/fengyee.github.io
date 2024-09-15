@@ -6,10 +6,10 @@
 main:
   - name: Bio
     url: /
-    weight: 10
+    weight: 9
   - name: News
     url: /#news
-    weight: 13
+    weight: 10
   - name: Papers
     url: /#papers
     weight: 11
