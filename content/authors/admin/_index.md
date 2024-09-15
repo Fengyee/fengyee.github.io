@@ -115,7 +115,7 @@ skills:
         description: |
           Primary development language for published research, implementing machine learning algorithms using the PyTorch framework.
           Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming.
-          Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.'
+          Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.
         percent: 100
         icon: python
       - name: C++
