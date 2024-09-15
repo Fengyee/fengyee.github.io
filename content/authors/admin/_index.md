@@ -59,7 +59,7 @@ education:
     date_start: 2021-09-01
     date_end: 2026-05-31
     summary: |
-      Thesis on *Neural Representations of Geospatial Data: Analysis, Generation, and Beyond (provisional)*. Supervised by [Prof Leila De Floriani](https://users.umiacs.umd.edu/~deflo/).
+      Thesis on *Neural Representations of Geospatial Data: Analysis, Generation, and Beyond (provisional)*.
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -69,7 +69,8 @@ education:
     date_end: 2020-05-31
     summary: |
       GPA: 4.0/4.0
-      Thesis on *Linear structure vectorization in large-scale landscape point cloud*. Supervised by [Prof Long Quan](https://www.cse.ust.hk/~quan/).
+
+      Thesis on *Linear structure vectorization in large-scale landscape point cloud*.
   - area: BEng Dual Major in Computer Science Engineering and Electronic and Computer Engineering
     institution: Hong Kong University of Science and Technology
     date_start: 2014-09-01
@@ -171,3 +172,4 @@ awards:
 ## About Me
 
 Haoan Feng is a dedicated researcher at the University of Maryland, College Park, passionate about the interdisciplinary fields of computer vision and geospatial data analysis. With a diverse research interest spanning neural representations of geospatial data, neural rendering, topological analysis, and advanced data visualization techniques, Haoan Feng is committed to pushing the boundaries of scientific exploration. Collaborative by nature, Haoan Feng has worked with teams from various academic backgrounds, reinforcing the belief that innovation thrives through interdisciplinary exchange. Continually driven by curiosity, Haoan Feng seeks to contribute to meaningful advancements in these cutting-edge fields.
+ Supervised by [Prof Long Quan](https://www.cse.ust.hk/~quan/).Supervised by [Prof Leila De Floriani](https://users.umiacs.umd.edu/~deflo/).
