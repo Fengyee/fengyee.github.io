@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Haoan Feng
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Haoan
+last_name: Feng
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 💭
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,92 +20,94 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Ph.D. Student in Computer Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Maryland, College Park
+    url: https://umd.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:hfengac@terpmail.umd.edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/Fengyee_HF
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/fengyee
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/haoan-feng/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=yubxZUUAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-3667-3990
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
+  - Geospatial Data Modeling
+  - Neural Representation
+  - Neural Rendering
+  - Topological Analysis
   - Information Retrieval
+  - Generative Model
+  - Data Visualization
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD in Computer Science
+    institution: University of Maryland, College Park
+    date_start: 2021-09-01
+    date_end: 2026-05-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Thesis on *Neural Representations of Geospatial Data: Analysis, Generation, and Beyond (provisional)*. Supervised by [Prof Leila De Floriani](https://users.umiacs.umd.edu/~deflo/).
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+  - area: MPhil in Computer Science
+    institution: Hong Kong University of Science and Technology
+    date_start: 2018-09-01
+    date_end: 2020-05-31
     summary: |
-      GPA: 3.8/4.0
+      GPA: 4.0/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      summary: |
+      Thesis on *Linear structure vectorization in large-scale landscape point cloud*. Supervised by [Prof Long Quan](https://www.cse.ust.hk/~quan/).
+  - area: BEng Dual Major in Computer Science Engineering and Electronic and Computer Engineering
+    institution: Hong Kong University of Science and Technology
+    date_start: 2014-09-01
+    date_end: 2018-05-31
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.9/4.3
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Discrete Math Tools
+      - Advanced Computer Graphics
+      - Data Visualization
+      - Probability and Random Processes in Engineering
+      - Signals and Systems
+# work:
+#   - position: Director of Cloud Infrastructure
+#     company_name: GenCoin
+#     company_url: ''
+#     company_logo: ''
+#     date_start: 2021-01-01
+#     date_end: ''
+#     summary: |2-
+#       Responsibilities include:
+#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - position: Backend Software Engineer
+#     company_name: X
+#     company_url: ''
+#     company_logo: ''
+#     date_start: 2016-01-01
+#     date_end: 2020-12-31
+#     summary: |
+#       Responsibilities include:
+#       - Migrated infrastructure to a new data center
+#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -113,17 +115,17 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
+        description: 'Primary development language for published research, implementing machine learning algorithms using the PyTorch framework. Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming. Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.'
         percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+        icon: code-bracket
+      - name: C++
+        description: 'Implemented scale-space algorithms and data structures for analyzing triangulated irregular networks, following object-oriented programming principles. Optimized algorithm inference speed using parallel computation with the OpenMP library, improving efficiency by parallelizing tasks on leaf nodes in tree structures.'
+        percent: 90
+        icon: binary
+      - name: Others
+        description: 'Development primarily in Unix (CentOS) environments, managing computational tasks with SLURM. Practical experience in database management (MySQL, MongoDB) and professional engineering software (QGIS, MATLAB, MeshLab). Experienced in full-stack web development, including backend (NodeJS, PHP) and frontend (ReactJS).'
+        percent: 85
+        icon: screwdriver-wrench
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -145,8 +147,10 @@ languages:
   - name: English
     percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
+    percent: 100
+  - name: Cantonese
+    percent: 25
+  - name: Japanese
     percent: 25
 
 # Awards.
