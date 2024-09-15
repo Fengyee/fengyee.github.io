@@ -34,6 +34,7 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
+    highlight_active_link: true
     logo:
       text: "Haoan Feng"
 
