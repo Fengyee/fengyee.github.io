@@ -53,7 +53,8 @@ sections:
     design:
       # Choose a layout view
       view: date-title-summary
-      background: lightgray
+      background:
+        color: lightgray
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
