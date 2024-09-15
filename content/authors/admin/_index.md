@@ -113,9 +113,9 @@ skills:
     items:
       - name: Python
         description: |
-          1. Primary development language for published research, implementing machine learning algorithms using the PyTorch framework.
-          2. Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming.
-          3. Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.
+          Primary development language for published research, implementing machine learning algorithms using the PyTorch framework.
+          Developed GPU-accelerated algorithms with Python bindings and CUDA kernel programming.
+          Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.
         percent: 100
         icon: python
       - name: C++
@@ -158,13 +158,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+  - title: Chair's Graduate Fellowship
+    url: https://anth.umd.edu/undergraduate/fellowships-and-stipends
+    date: '2021 - 2023'
+    awarder: University of Maryland, College Park
+    icon: academic-cap
+    # summary: |
+    #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
