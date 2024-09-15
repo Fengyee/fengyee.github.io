@@ -131,7 +131,7 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: Hiking
-        description: ![d](./content/authors/admin/avarta.jpg)
+        description: ![d](../avarta.jpg)
         percent: 60
         icon: person-simple-walk
       - name: Cats
