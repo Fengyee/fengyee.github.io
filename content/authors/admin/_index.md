@@ -177,4 +177,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Haoan Feng is a dedicated researcher at the University of Maryland, College Park, passionate about the interdisciplinary fields of computer vision and geospatial data analysis. With a diverse research interest spanning neural representations of geospatial data, neural rendering, topological analysis, and advanced data visualization techniques, Haoan Feng is committed to pushing the boundaries of scientific exploration. Collaborative by nature, Haoan Feng has worked with teams from various academic backgrounds, reinforcing the belief that innovation thrives through interdisciplinary exchange. Continually driven by curiosity, Haoan Feng seeks to contribute to meaningful advancements in these cutting-edge fields.
