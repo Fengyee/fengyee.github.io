@@ -12,7 +12,7 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+      username: Haoan Feng
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
@@ -71,12 +71,7 @@ sections:
           - event
     design:
       view: article-grid
-      columns: 1
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+      columns: 2
       background:
         color: "#f7f7f7"
         text_color_light: false

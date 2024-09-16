@@ -1,5 +1,5 @@
 ---
-title: Learning discriminative feature with crf for unsupervised video object segmentation
+title: Learning Discriminative Feature with CRF for Unsupervised Video Object Segmentation
 authors:
 - Mingmin Zhen
 - Shiwei Li
@@ -14,4 +14,8 @@ publication_types:
 - paper-conference
 publication: '*Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK,
   August 23--28, 2020, Proceedings, Part XXVII 16*'
+
+links:
+- name: Arxiv
+  url: 'https://arxiv.org/abs/2008.01270'
 ---

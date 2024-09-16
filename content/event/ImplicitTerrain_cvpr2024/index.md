@@ -18,15 +18,15 @@ summary: 'We present our CVPR 2024 paper "ImplicitTerrain: a Continuous Surface 
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2024-06-18'
 # date_end: '2030-06-01T15:00:00Z'
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 # publishDate: '2017-01-01T00:00:00Z'
 
 authors:
-  - admin
+  - Haoan Feng
 
-tags: ['INR', 'Geospatial', 'Topology']
+tags: ['INR', 'Neural Representation', 'Geospatial', 'Topology']
 
 # Is this a featured talk? (true/false)
 featured: true
@@ -42,7 +42,7 @@ featured: true
 #    url: https://twitter.com/georgecushen
 
 url_project: 'https://fengyee.github.io/implicit-terrain/'
-url_slides: '/slides/ImplicitTerrain_slides.pdf'
+url_slides: '/publication/feng-2024-implicitterrain/ImplicitTerrain_slides.pdf'
 # url_video: 'https://youtube.com'
 
 # Markdown Slides (optional).
@@ -62,6 +62,6 @@ url_slides: '/slides/ImplicitTerrain_slides.pdf'
 ---
 
 ### Abstract
-*Digital terrain models (DTMs) are pivotal in remote sensing, cartography, and landscape management, requiring accurate surface representation and topological information restoration. While topology analysis traditionally relies on smooth manifolds, the absence of an easy-to-use continuous surface model for a large terrain results in a preference for discrete meshes. Structural representation based on topology provides a succinct surface description, laying the foundation for many terrain analysis applications. However, on discrete meshes, numerical issues emerge, and complex algorithms are designed to handle them. This paper brings the context of terrain data analysis back to the continuous world and introduces ImplicitTerrain, an implicit neural representation (INR) approach for modeling high-resolution terrain continuously and differentiably. Our comprehensive experiments demonstrate superior surface fitting accuracy, effective topological feature retrieval, and various topographical feature extraction that are implemented over this compact representation in parallel. To our knowledge, ImplicitTerrain pioneers a feasible continuous terrain surface modeling pipeline that provides a new research avenue for our community.*
+<span style='font-size:10px'>*Digital terrain models (DTMs) are pivotal in remote sensing, cartography, and landscape management, requiring accurate surface representation and topological information restoration. While topology analysis traditionally relies on smooth manifolds, the absence of an easy-to-use continuous surface model for a large terrain results in a preference for discrete meshes. Structural representation based on topology provides a succinct surface description, laying the foundation for many terrain analysis applications. However, on discrete meshes, numerical issues emerge, and complex algorithms are designed to handle them. This paper brings the context of terrain data analysis back to the continuous world and introduces ImplicitTerrain, an implicit neural representation (INR) approach for modeling high-resolution terrain continuously and differentiably. Our comprehensive experiments demonstrate superior surface fitting accuracy, effective topological feature retrieval, and various topographical feature extraction that are implemented over this compact representation in parallel. To our knowledge, ImplicitTerrain pioneers a feasible continuous terrain surface modeling pipeline that provides a new research avenue for our community.*</span>
 
 More can be found at the [project page](https://fengyee.github.io/implicit-terrain/).
