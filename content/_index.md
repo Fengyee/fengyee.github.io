@@ -44,9 +44,9 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
-        * [date] name1
-        * [date] name2
-        * [date] name3
+        * **[Aug. 2024]** We have one [paper](https://arxiv.org/abs/2409.06638) accepted as **Oral presentation** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/) See you @Georgia 🎉
+        * **[Apr. 2024]** Our paper [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) is accepted as **Oral presentation** at [INRV2024 (CVPR2024)](https://inrv.github.io/). See you @Seattle 🎉
+        * **[Aug. 2021]** First day at [University of Maryland, College Park](https://www.umd.edu/), working with [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/) 🎉
     design:
       background:
         color: "#f7f7f7"

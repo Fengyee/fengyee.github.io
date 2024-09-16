@@ -9,6 +9,11 @@ design:
 
 ## Academic Services
 
+### Guest Lecture
+
+* **Machine Learning Algorithms for Point Clouds** in the course CMSC401: Algorithms for
+Geospatial Computing, **Spring 2024**
+
 ### Teaching Assistant
 
 * CMSC414: Computer and Network Security, **Fall 2022** & **Fall 2024**
@@ -21,7 +26,7 @@ design:
 
 ### Conference Reviewer
 
-1. International Conference on Pattern Recognition (ICPR): [2024](https://icpr2024.org/)
+* International Conference on Pattern Recognition (ICPR): [2024](https://icpr2024.org/)
 
 ## Extracurricular Services
 

@@ -60,6 +60,7 @@ education:
     date_end: 2026-05-31
     summary: |
       GPA: 4.0/4.0  
+      Advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/)  
       Thesis on *Neural Representations of Geospatial Data: Analysis, Generation, and Beyond (provisional)*.
     # button:
     #   text: 'Read Thesis'
@@ -70,6 +71,7 @@ education:
     date_end: 2020-05-31
     summary: |
       GPA: 4.0/4.0  
+      Advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/)  
       Thesis on *Linear structure vectorization in large-scale landscape point cloud*.
   - area: BEng Dual Major in Computer Science Engineering and Electronic and Computer Engineering
     institution: Hong Kong University of Science and Technology
@@ -77,7 +79,7 @@ education:
     date_end: 2018-05-31
     summary: |
       GPA: 3.9/4.3  
-      Courses included:
+      Courses highlighted:
       - Discrete Math Tools
       - Advanced Computer Graphics
       - Data Visualization
