@@ -54,14 +54,17 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications
+      title: Recent Publications
       text: ""
+      count: 4
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: card
+      style:
+        max-width: 500px
   - block: collection
     id: talks
     content:

@@ -8,8 +8,8 @@ authors:
 
 highlight_name: true
 
-date: '2024-09-15'
-publishDate: '2024-09-15T16:13:36.197198Z'
+date: '2024-09-14'
+# publishDate: '2024-09-15'
 publication_types:
 - paper-conference
 publication: In *The 32nd ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL ’24)*. **(Oral Presentation)**
@@ -36,10 +36,9 @@ url_slides: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-#   focal_point: ''
-#   preview_only: false
+image:
+  focal_point: 'Center'
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
