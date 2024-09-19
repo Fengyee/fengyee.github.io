@@ -20,6 +20,10 @@ sections:
         url: uploads/resume.pdf
     design:
       css_class: light
+      spacing:
+        padding:
+          top: "2rem"
+          bottom: "2rem"
       background:
         color: system
         # image:
@@ -30,14 +34,6 @@ sections:
         #   size: cover
         #   position: center
         #   parallax: false
-  # - block: markdown
-  #   content:
-  #     title: '📚 My Research'
-  #     subtitle: ''
-  #     text: |-
-  #       Please reach out to collaborate 😃
-  #   design:
-  #     columns: '1'
   - block: markdown
     id: news
     content:
@@ -51,6 +47,10 @@ sections:
       background:
         color: "#f7f7f7"
         text_color_light: false
+      spacing:
+        padding:
+          top: "2rem"
+          bottom: "2rem"
   - block: collection
     id: publications
     content:
@@ -65,6 +65,10 @@ sections:
       view: card
       style:
         max-width: 500px
+      spacing:
+        padding:
+          top: "2rem"
+          bottom: "2rem"
   - block: collection
     id: talks
     content:

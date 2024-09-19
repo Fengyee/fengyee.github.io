@@ -5,3 +5,11 @@ html {
 .max-w-screen-xl {
     max-width: 1400px;
 }
+
+.bio-text blockquote {
+    quotes: none;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #404040;
+}

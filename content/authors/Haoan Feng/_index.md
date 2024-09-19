@@ -48,6 +48,7 @@ interests:
   - Geospatial Data Modeling
   - Neural Representation
   - Neural Rendering
+  - AI4Science
   - Topological Analysis
   - Information Retrieval
   - Generative Model
@@ -180,3 +181,5 @@ Haoan Feng is a dedicated researcher at the [University of Maryland, College Par
 During the BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Haoan Feng is gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, Haoan Feng is gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/), working on the interdisciplinary fields of computer vision and geospatial data analysis.
 
 **Please reach out to collaborate 😆!**
+
+> "Great things in business are never done by one person; they're done by a team of people."    — Steve Jobs

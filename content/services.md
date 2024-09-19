@@ -2,9 +2,6 @@
 title: Services
 date: 2024-09-15
 
-design:
-  spacing:
-    # Customize the section spacing. Order is top, right, bottom, left.
 ---
 
 ## Academic Services
