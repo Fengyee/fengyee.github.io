@@ -11,7 +11,7 @@ last_name: Feng
 
 # Status emoji
 status:
-  icon: 💭
+  icon: 🎓
 
 # Is this the primary user of the site?
 superuser: true
@@ -131,14 +131,14 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
       - name: Cat
         description: 'Her name is **Bella**'
-        percent: 100
         icon: cat
+      - name: Hiking
+        description: ''
+        icon: person-simple-walk
+      - name: Cooking
+      - name: Reading
 
 languages:
   - name: English
@@ -176,7 +176,7 @@ awards:
 
 ## Biography
 
-Haoan Feng is a dedicated researcher at the [University of Maryland, College Park](https://umd.edu), passionate about the interdisciplinary fields of computer vision and geospatial data analysis. With a diverse research interest spanning **neural representations of geospatial data, neural rendering, topological analysis, and advanced data visualization techniques**. Haoan Feng is committed to pushing the boundaries of scientific exploration. Collaborative by nature, Haoan Feng has worked with teams from various academic backgrounds, reinforcing the belief that innovation thrives through interdisciplinary exchange. Continually driven by curiosity, Haoan Feng seeks to contribute to meaningful advancements in these cutting-edge fields.
+Haoan Feng is a dedicated researcher at the [University of Maryland, College Park](https://umd.edu), passionate about the interdisciplinary fields of computer vision and geospatial data analysis. With a diverse research interest spanning **neural representations of geospatial data, neural rendering, topological analysis, AI4Science, and advanced data visualization techniques**. Haoan Feng is committed to pushing the boundaries of scientific exploration. Collaborative by nature, Haoan Feng has worked with teams from various academic backgrounds, reinforcing the belief that innovation thrives through interdisciplinary exchange. Continually driven by curiosity, Haoan Feng seeks to contribute to meaningful advancements in these cutting-edge fields.
 
 During the BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Haoan Feng is gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, Haoan Feng is gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/), working on the interdisciplinary fields of computer vision and geospatial data analysis.
 
