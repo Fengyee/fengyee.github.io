@@ -139,6 +139,7 @@ skills:
         icon: person-simple-walk
       - name: Cooking
       - name: Reading
+      - name: 3D printing
 
 languages:
   - name: English
