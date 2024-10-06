@@ -16,7 +16,7 @@ main:
   - name: Presentations
     url: /#talks
     weight: 12
-  - name: Experience
+  - name: Education & Experience
     url: experience/
     weight: 20
   - name: Projects
