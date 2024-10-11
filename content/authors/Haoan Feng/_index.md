@@ -179,7 +179,7 @@ awards:
 
 Haoan Feng is a dedicated researcher at the [University of Maryland, College Park](https://umd.edu), passionate about the interdisciplinary fields of computer vision and geospatial data analysis. With a diverse research interest spanning **neural representations of geospatial data, neural rendering, topological analysis, AI4Science, and advanced data visualization techniques**. Haoan Feng is committed to pushing the boundaries of scientific exploration. Collaborative by nature, Haoan Feng has worked with teams from various academic backgrounds, reinforcing the belief that innovation thrives through interdisciplinary exchange. Continually driven by curiosity, Haoan Feng seeks to contribute to meaningful advancements in these cutting-edge fields.
 
-During the BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Haoan Feng is gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, Haoan Feng is gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/), working on the interdisciplinary fields of computer vision and geospatial data analysis.
+During the BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Haoan Feng was gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, Haoan Feng is gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/), and focusing on the interdisciplinary fields of computer vision and geospatial data analysis.
 
 **Please reach out to collaborate 😆!**
 
