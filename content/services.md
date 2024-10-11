@@ -6,7 +6,7 @@ date: 2024-09-15
 
 ## Academic Services
 
-### Guest Lecture
+### Guest Lecturer
 
 * **Machine Learning Algorithms for Point Clouds** in the course CMSC401: Algorithms for
 Geospatial Computing, **Spring 2024**
