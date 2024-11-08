@@ -5,11 +5,11 @@ authors:
 - Tiago Novello
 - Diana Aldana
 - Leila De Floriani
-date: '2024-09-15'
+date: '2024-10-01'
 # publishDate: '2024-06-18'
 publication_types:
 - paper-conference
-publication: '*(Work in progress)*'
+publication: '*(Preprint is in progress)*'
 
 abstract: ''
 
@@ -32,5 +32,5 @@ featured: true
 ---
 
 {{% callout note %}}
-We are actively working on the formating of this paper.
+We are actively working on the formating of this paper for ICCV2025.
 {{% /callout %}}

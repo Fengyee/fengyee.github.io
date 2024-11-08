@@ -31,7 +31,7 @@ links:
    url: 'https://arxiv.org/abs/2409.06638'
 
 url_poster: ''
-url_project: ''
+url_project: 'https://fengyee.github.io/tin-scale-space'
 url_slides: ''
 
 # Featured image
@@ -56,5 +56,5 @@ image:
 # slides: example
 ---
 {{% callout note %}}
-Project page under construction.
+You can find the slides and a 15 mins presentation on the project page [here](https://fengyee.github.io/tin-scale-space).
 {{% /callout %}}
