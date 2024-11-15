@@ -163,8 +163,11 @@ skills:
         description: ''
         icon: person-simple-walk
       - name: Cooking
+        icon: custom/academic-cap
       - name: Reading & Manga
+        icon: custom/manga
       - name: 3D printing
+        icon: custom/cube
 
 languages:
   - name: English
