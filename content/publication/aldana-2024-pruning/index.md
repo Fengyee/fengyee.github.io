@@ -32,5 +32,5 @@ featured: true
 ---
 
 {{% callout note %}}
-We are actively working on the formating of this paper for ICML2025.
+We are actively working on the formating of this paper.
 {{% /callout %}}
