@@ -52,12 +52,13 @@ interests:
   - Generative Model
   - Data Visualization
   - AI4Science
+  - Vision-Lanaguage Model
 
 education:
   - area: PhD in Computer Science
     institution: University of Maryland, College Park
     date_start: 2021-09-01
-    date_end: 2026-05-31
+    date_end: 2026-12-31
     summary: |
       GPA: 4.0/4.0  
       Advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/)  
@@ -86,6 +87,18 @@ education:
       - Probability and Random Processes in Engineering
       - Signals and Systems
 work:
+  - position: PhD Research Intern
+    company_name: Dolby Laboratories – Advanced Technology Group (ATG)
+    date_start: 2025-06-01
+    date_end: 2025-08-31
+    summary: |2-
+      Advised by [Dr. Guan-ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) and [Dr. Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/).
+
+      Responsibilities include:  
+      - Conducted research on Vision-Language Models (VLMs) for video understanding, with emphasis on bridging cutting-edge research and industrial applications.
+      - Explored deep learning methods for multimodal representation learning, fine-tuning, and evaluation on large-scale video datasets.
+      - Designed and implemented experimental pipelines to assess model performance, scalability, and practical deployment potential.
+      - Collaborated closely with senior researchers and engineers, contributing to forward-looking innovations in AI and multimedia technologies.
   - position: Moodle Software Developer and Technical Support
     company_name: Hong Kong University of Science and Technology
     date_start: 2020-06-01

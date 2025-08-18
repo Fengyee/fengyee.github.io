@@ -8,12 +8,12 @@ date: 2024-09-15
 ### Guest Lecturer
 
 * **Machine Learning Algorithms for Point Clouds** in the course CMSC401: Algorithms for
-Geospatial Computing, **Spring 2024**
+Geospatial Computing, **Spring 2024, 2025**
 
 ### Teaching Assistant
 
-* CMSC414: Computer and Network Security, **Fall 2022** & **Fall 2024**
-* CMSC401: Algorithms for Geospatial Computing, **Spring 2023** & **Spring 2024**
+* CMSC414: Computer and Network Security, **Fall 2022 \& Fall 2024, 2025**
+* CMSC401: Algorithms for Geospatial Computing, **Spring 2023, 2024, 2025**
 * CMSC416: Introduction to Parallel Computing, **Fall 2023**
 * CMSC454: Algorithms for Data Science, **Spring 2022**
 * CMSC427: Computer Graphics, **Fall 2021**
@@ -22,7 +22,8 @@ Geospatial Computing, **Spring 2024**
 
 ### Conference Reviewer
 
-* International Conference on Pattern Recognition (ICPR): [2024](https://icpr2024.org/)
+* Conference on Neural Information Processing Systems ([NeurIPS 2025](https://neurips.cc/))
+* International Conference on Pattern Recognition [(ICPR 2024)](https://icpr2024.org/)
 
 ## Extracurricular Services
 

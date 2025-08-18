@@ -5,11 +5,11 @@ authors:
 - Tiago Novello
 - Diana Aldana
 - Leila De Floriani
-date: '2024-10-01'
+date: '2025-03-01'
 # publishDate: '2024-06-18'
 publication_types:
 - paper-conference
-publication: '*(Preprint is in progress)*'
+publication: 'Preprint on [<span style="color: blue">Arxiv</span>](https://arxiv.org/pdf/2503.09750)'
 
 abstract: ''
 
@@ -32,5 +32,5 @@ featured: true
 ---
 
 {{% callout note %}}
-We are actively working on the formating of this paper.
+This page is not yet complete. Will be updated after the paper is accepted.
 {{% /callout %}}
