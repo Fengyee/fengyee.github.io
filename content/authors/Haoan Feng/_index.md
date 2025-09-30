@@ -92,7 +92,8 @@ work:
     date_start: 2025-06-01
     date_end: 2025-08-31
     summary: |2-
-      Advised by [Dr. Guan-ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) and [Dr. Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/).
+      Mentor: Dr. Harsha Musunuri  
+      Manager: Dr. Guan-ming Su.
 
       Responsibilities include:  
       - Conducted research on Vision-Language Models (VLMs) for video understanding, with emphasis on bridging cutting-edge research and industrial applications.
