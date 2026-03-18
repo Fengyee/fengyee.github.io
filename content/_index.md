@@ -40,6 +40,7 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
+        * **[Mar. 2026]** Our paper [Geometry-Guided Camera Motion Understanding in VideoLLMs](https://arxiv.org/abs/2603.13119), developed during my 2025 summer internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/), is now available on arXiv. 🎉
         * **[Aug. 2025]** Completed a rewarding summer journey as a **PhD Research Intern** at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/).  Grateful to my mentor [Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/) and manager [Guan-ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) for their guidance and support throughout this internship. 🎉
         * **[Mar. 2025]** Our paper **SASNet** that enables sinusoidal neural networks with spatial-awareness is now available on [Arxiv](https://arxiv.org/abs/2503.09750). 🎉
         * **[Oct. 2024]** Our paper [scale space for TINs](https://fengyee.github.io/tin-scale-space) received the **best paper runner-up** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/). 🎉
