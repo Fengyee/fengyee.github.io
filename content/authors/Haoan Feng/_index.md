@@ -52,13 +52,13 @@ interests:
   - Generative Model
   - Data Visualization
   - AI4Science
-  - Vision-Lanaguage Model
+  - Vision-Language Model
 
 education:
   - area: PhD in Computer Science
     institution: University of Maryland, College Park
     date_start: 2021-09-01
-    date_end: 2026-12-31
+    date_end: 2027-05-31
     summary: |
       GPA: 4.0/4.0  
       Advised by <a href="https://users.umiacs.umd.edu/~deflo/">Prof. Leila De Floriani</a>  
@@ -92,14 +92,13 @@ work:
     date_start: 2025-06-01
     date_end: 2025-08-31
     summary: |2-
-      Mentor: Dr. Harsha Musunuri  
-      Manager: Dr. Guan-ming Su.
+      Mentor: Dr. Sri Harsha Musunuri
+      Manager: Dr. Guan-Ming Su
 
-      Responsibilities include:  
-      - Conducted research on Vision-Language Models (VLMs) for video understanding, with emphasis on bridging cutting-edge research and industrial applications.
-      - Explored deep learning methods for multimodal representation learning, fine-tuning, and evaluation on large-scale video datasets.
-      - Designed and implemented experimental pipelines to assess model performance, scalability, and practical deployment potential.
-      - Collaborated closely with senior researchers and engineers, contributing to forward-looking innovations in AI and multimedia technologies.
+      Responsibilities include:
+      - Developed a geometry-guided framework to augment Video Large Language Models (VideoLLMs) with cinematographic camera motion understanding, resulting in a first-author publication accepted at CVPR 2026 Workshop PVUW.
+      - Created a synthetic video benchmark using Unreal Engine 5 and designed probing experiments to evaluate spatial retention in vision encoders via Q-former.
+      - Proposed a plug-and-play strategy that injects camera motion, framing, and spatial descriptors into VideoLLMs, improving reasoning for video captioning, VQA, and stylistic plagiarism detection.
   - position: Moodle Software Developer and Technical Support
     company_name: Hong Kong University of Science and Technology
     date_start: 2020-06-01
@@ -196,10 +195,10 @@ languages:
 
 ## Biography
 
-Haoan Feng is a dedicated researcher at the [University of Maryland, College Park](https://umd.edu), passionate about the interdisciplinary fields of computer vision and geospatial data analysis. With a diverse research interest spanning **spatial representation learning, neural rendering, topological analysis, AI4Science, and advanced data visualization techniques**. Haoan Feng is committed to pushing the boundaries of scientific exploration. Collaborative by nature, Haoan Feng has worked with teams from various academic backgrounds, reinforcing the belief that innovation thrives through interdisciplinary exchange. Continually driven by curiosity, Haoan Feng seeks to contribute to meaningful advancements in these cutting-edge fields.
+I am a researcher at the [University of Maryland, College Park](https://umd.edu), focused on the intersection of computer vision, geometry processing, and geospatial data analysis. My research centers on **neural representations of geospatial data**, combining implicit neural modeling, topology-aware analysis, and generative frameworks to enable interpretable, continuous, and scalable representations of the physical world. I am motivated by interdisciplinary collaboration that bridges machine learning, graphics, and scientific computing.
 
-During the BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), Haoan Feng was gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, Haoan Feng is gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/), and focusing on the interdisciplinary fields of computer vision and geospatial data analysis.
+During my BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), I was gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, I am gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/).
 
 **Please reach out to chat and collaborate 😆!**
 
-> "Great things in business are never done by one person; they're done by a team of people."    — Steve Jobs
+> "Topology is precisely the mathematical discipline that allows the passage from local to global."    — René Thom
