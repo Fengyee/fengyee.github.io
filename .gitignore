@@ -3,3 +3,4 @@ resources/
 hugo_stats.json
 go.sum
 netlify.toml
+.DS_Store

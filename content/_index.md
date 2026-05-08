@@ -40,13 +40,14 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
-        * **[Mar. 2026]** Our paper [Geometry-Guided Camera Motion Understanding in VideoLLMs](https://arxiv.org/abs/2603.13119), developed during my 2025 summer internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/), is now accepted @CVPR2026 Workshop PVUW. 🎉
-        * **[Mar. 2026]** Our paper [SASNet: Spatially-Adaptive Sinusoidal Neural Networks](https://arxiv.org/abs/2503.09750) is accepted at **CVPR 2026**. See you @Denver! 🎉
-        * **[Aug. 2025]** Completed a rewarding summer journey as a **PhD Research Intern** at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/).  Grateful to my mentor [Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/) and manager [Guan-ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) for their guidance and support throughout this internship. 🎉
-        * **[Oct. 2024]** Our paper [scale space for TINs](https://fengyee.github.io/tin-scale-space) received the **best paper runner-up** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/). 🎉
-        * **[Aug. 2024]** We have one [paper](https://arxiv.org/abs/2409.06638) accepted as **Oral presentation** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/) See you @Georgia. 🎉
-        * **[Apr. 2024]** Our paper [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) is accepted as **Oral presentation** at [INRV2024 (CVPR2024)](https://inrv.github.io/). See you @Seattle. 🎉
-        * **[Aug. 2021]** First day at [University of Maryland, College Park](https://www.umd.edu/), working with [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/). 🎉
+        * **[May 2026]** Our paper [A Parallel Scale-Space Method for Critical Features Tracking on Triangulated Irregular Networks](https://dl.acm.org/doi/10.1145/3812549) is accepted at **ACM Transactions on Spatial Algorithms and Systems (TSAS)**. 📄
+        * **[Mar. 2026]** Our paper [Geometry-Guided Camera Motion Understanding in VideoLLMs](https://arxiv.org/abs/2603.13119), developed during my 2025 summer internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/), is now accepted @CVPR2026 Workshop PVUW. 🎬
+        * **[Mar. 2026]** Our paper [SASNet: Spatially-Adaptive Sinusoidal Neural Networks](https://arxiv.org/abs/2503.09750) is accepted at **CVPR 2026**. See you @Denver! ✨
+        * **[Aug. 2025]** Completed a rewarding summer journey as a **PhD Research Intern** at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/).  Grateful to my mentor [Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/) and manager [Guan-ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) for their guidance and support throughout this internship. 🚀
+        * **[Oct. 2024]** Our paper [scale space for TINs](https://fengyee.github.io/tin-scale-space) received the **best paper runner-up** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/). 🏆
+        * **[Aug. 2024]** We have one [paper](https://arxiv.org/abs/2409.06638) accepted as **Oral presentation** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/) See you @Georgia. 🎤
+        * **[Apr. 2024]** Our paper [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) is accepted as **Oral presentation** at [INRV2024 (CVPR2024)](https://inrv.github.io/). See you @Seattle. 🌄
+        * **[Aug. 2021]** First day at [University of Maryland, College Park](https://www.umd.edu/), working with [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/). 🎓
     design:
       background:
         color: "#f7f7f7"

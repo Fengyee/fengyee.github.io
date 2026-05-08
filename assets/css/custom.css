@@ -13,3 +13,43 @@ html {
     font-size: 1.5em;
     color: #404040;
 }
+
+/* News block: wider container, denser/smaller type than the default lg:prose-xl */
+#news .max-w-prose {
+    max-width: 64rem;
+}
+
+#news .prose {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+#news .prose li,
+#news .prose p,
+#news .prose ul {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#news .prose li {
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+}
+
+@media (min-width: 1024px) {
+    #news .prose {
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+}
+
+/* Publications card image: 4:3 thumbnail, slightly wider than the bundled md:w-48 fallback */
+#publications .pub-card-img {
+    aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 768px) {
+    #publications .pub-card-img {
+        width: 16rem;
+    }
+}
