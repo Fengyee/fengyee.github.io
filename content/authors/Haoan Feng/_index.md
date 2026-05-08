@@ -114,6 +114,12 @@ work:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: "Jacob K. Goldhaber Travel Grant to attend CVPR 2026"
+    awarder: University of Maryland Graduate School
+    date: '2026-05-05'
+  - title: "CS Department Travel Award to attend CVPR 2026"
+    awarder: University of Maryland, Department of Computer Science
+    date: '2026-04-16'
   - title: "NSF travel grant to attend ACM SIGSPATIAL 2024"
     awarder: ACM SIGSPATIAL 2024
     date: '2024-10-01'
