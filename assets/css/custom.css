@@ -53,3 +53,35 @@ html {
         width: 16rem;
     }
 }
+
+/* Publications: the collection block stacks every card inside one shared
+   white container, so consecutive papers blend together. Add divider lines,
+   a hover highlight, and stop the flex row from stretching thumbnails to the
+   tallest card's height. */
+#publications .container > a {
+    display: block;
+    margin-bottom: 0;
+    border-top: 1px solid #e5e7eb; /* gray-200 */
+    transition: background-color 0.2s ease;
+}
+
+#publications .container > a:first-child {
+    border-top: none;
+}
+
+#publications .container > a:hover {
+    background-color: #f9fafb; /* gray-50 */
+}
+
+/* Vertically center image + text instead of stretching the thumbnail. */
+#publications .container > a > div {
+    align-items: center;
+}
+
+.dark #publications .container > a {
+    border-top-color: #374151; /* gray-700 */
+}
+
+.dark #publications .container > a:hover {
+    background-color: #18181b; /* zinc-900-ish */
+}
