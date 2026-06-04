@@ -43,9 +43,11 @@ html {
     }
 }
 
-/* Publications card image: 4:3 thumbnail, slightly wider than the bundled md:w-48 fallback */
+/* Publications card image: keep each figure's natural aspect ratio (no crop),
+   fit to a fixed column width and let height follow. */
 #publications .pub-card-img {
-    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    height: auto;
 }
 
 @media (min-width: 768px) {

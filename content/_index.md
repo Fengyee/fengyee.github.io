@@ -40,6 +40,7 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
+        * **[May 2026]** New preprint [Rethinking Amortized Neural Representations for High-Resolution Terrain Elevation Data](https://arxiv.org/abs/2606.00404) is out on arXiv — benchmarking amortized neural representations on terrain heightfields and proposing HUVR+SIREN for a compact terrain neural format. 🗻
         * **[May 2026]** New preprint [ImplicitTerrainV2: Wavelet-Guided Spatially Adaptive Neural Terrain Representation](https://arxiv.org/abs/2605.22556) is out on arXiv — a follow-up to [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) toward a compact, efficient neural terrain data format. 🏔️
         * **[May 2026]** Our paper [A Parallel Scale-Space Method for Critical Features Tracking on Triangulated Irregular Networks](https://dl.acm.org/doi/10.1145/3812549) is accepted at **ACM Transactions on Spatial Algorithms and Systems (TSAS)**. 📄
         * **[Mar. 2026]** Our paper [Geometry-Guided Camera Motion Understanding in VideoLLMs](https://arxiv.org/abs/2603.13119), developed during my 2025 summer internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/), is now accepted @CVPR2026 Workshop PVUW. 🎬
