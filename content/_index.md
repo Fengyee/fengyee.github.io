@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Latest CV
-        url: uploads/cv_2026_03.pdf
+        url: uploads/cv_2026_06.pdf
     design:
       css_class: light
       spacing:
