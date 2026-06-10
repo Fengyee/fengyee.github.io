@@ -1,5 +1,5 @@
 ---
-title: 'SASNet: Spatially-Adaptive Sinusoidal Neural Networks'
+title: 'SASNet: Spatially-Adaptive Sinusoidal Networks for INRs'
 authors:
 - Haoan Feng
 - Diana Aldana
