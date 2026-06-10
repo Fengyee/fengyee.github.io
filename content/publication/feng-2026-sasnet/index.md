@@ -43,7 +43,7 @@ A collaboration between the **University of Maryland** and **IMPA**, with Haoan 
 
 ```bibtex
 @inproceedings{feng2026sasnet,
-  title     = {SASNet: Spatially-Adaptive Sinusoidal Neural Networks},
+  title     = {SASNet: Spatially-Adaptive Sinusoidal Networks for INRs},
   author    = {Feng, Haoan and Aldana, Diana and Novello, Tiago and De Floriani, Leila},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year      = {2026}
