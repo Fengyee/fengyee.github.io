@@ -1,5 +1,5 @@
 ---
-title: 'SASNet: Spatially-Adaptive Sinusoidal Networks for INRs'
+title: 'SASNet: Spatially-Adaptive Sinusoidal Neural Networks'
 authors:
 - Haoan Feng
 - Diana Aldana
@@ -28,8 +28,8 @@ links:
  - name: Code
    url: 'https://github.com/Fengyee/SASNet_inr'
 
+url_project: 'https://fengyee.github.io/SASNet_inr/'
 # url_poster: ''
-# url_project: ''
 # url_slides: ''
 ---
 
@@ -38,3 +38,14 @@ SIRENs are powerful implicit neural representations, but they are highly sensiti
 
 A collaboration between the **University of Maryland** and **IMPA**, with Haoan Feng, Diana Aldana, Tiago Novello, and Leila De Floriani.
 {{% /callout %}}
+
+## Cite
+
+```bibtex
+@inproceedings{feng2026sasnet,
+  title     = {SASNet: Spatially-Adaptive Sinusoidal Neural Networks},
+  author    = {Feng, Haoan and Aldana, Diana and Novello, Tiago and De Floriani, Leila},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2026}
+}
+```
