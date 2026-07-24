@@ -5,3 +5,8 @@ go.sum
 netlify.toml
 .DS_Store
 latex-resume
+
+# Locally installed Claude Code skills (machine-local, not site content)
+.claude/skills/
+.agents/
+skills-lock.json
