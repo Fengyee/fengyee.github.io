@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Latest CV
-        url: uploads/cv_2026_06.pdf
+        url: uploads/cv_2026_07.pdf
     design:
       css_class: light
       spacing:
@@ -40,6 +40,7 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
+        * **[May 2026]** Back at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/) for a second summer as a **PhD Research Intern** -- a greenfield project proposed and led by myself: authoring text and icons as native Gaussian-splatting assets inside volumetric video. 💠
         * **[May 2026]** New preprint [Rethinking Amortized Neural Representations for High-Resolution Terrain Elevation Data](https://arxiv.org/abs/2606.00404) is out on arXiv — benchmarking amortized neural representations on terrain heightfields and proposing HUVR+SIREN for a compact terrain neural format. 🗻
         * **[May 2026]** New preprint [ImplicitTerrainV2: Wavelet-Guided Spatially Adaptive Neural Terrain Representation](https://arxiv.org/abs/2605.22556) is out on arXiv — a follow-up to [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) toward a compact, efficient neural terrain data format. 🏔️
         * **[May 2026]** Our paper [A Parallel Scale-Space Method for Critical Features Tracking on Triangulated Irregular Networks](https://dl.acm.org/doi/10.1145/3812549) is accepted at **ACM Transactions on Spatial Algorithms and Systems (TSAS)**. 📄
