@@ -10,3 +10,5 @@ latex-resume
 .claude/skills/
 .agents/
 skills-lock.json
+
+tmp*
