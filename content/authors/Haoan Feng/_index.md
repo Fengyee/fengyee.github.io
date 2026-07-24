@@ -62,7 +62,7 @@ education:
     summary: |
       GPA: 4.0/4.0  
       Advised by <a href="https://users.umiacs.umd.edu/~deflo/">Prof. Leila De Floriani</a>  
-      Thesis on *Neural Representations of Geospatial Data: Analysis, Generation, and Beyond (provisional)*.
+      Thesis on *Topology-Aware Modeling of Terrain and Volumetric Data: From Discrete to Neural Implicit Representations*.
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
