@@ -99,7 +99,7 @@ work:
       - Proposed authoring text and icon annotations as native [TVGS](https://ieeexplore.ieee.org/document/11416836/) Gaussian assets inside volumetric video, so that inserted content shares the host scene's rendering path and behaves correctly under depth ordering, mutual occlusion, and physically based relighting.
       - Built the authoring system around a [Viser](https://viser.studio/)-based interactive scene editor, with a keyframe timeline and text tracks for timed, reusable annotations.
       - Designed a feed-forward amortized authoring method in which a shared encoder–decoder predicts renderable TVGS assets directly from canonical anchor point clouds, keeping normal map prediction accuracy under 2 degrees while compressing the per-asset payload to a compact anchor group (roughly 28x smaller).
-      - Scaled training to a library of 2,700+ physically based assets on multi-GPU infrastructure, generalizing to fonts never seen in training.
+      - Scaled training to a library of 27K+ physically based assets on multi-GPU infrastructure, generalizing to fonts never seen in training.
   - position: PhD Research Intern
     company_name: Dolby Laboratories – Advanced Technology Group (ATG)
     date_start: 2025-06-01
