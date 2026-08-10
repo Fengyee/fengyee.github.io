@@ -22,6 +22,10 @@ tags:
 
 featured: true
 
+summary: 'ImplicitTerrain models high-resolution digital terrain continuously and differentiably with an implicit neural representation, enabling accurate surface fitting and parallel topological feature extraction directly from the compact learned model.'
+
+url_pdf: 'https://arxiv.org/pdf/2406.00227'
+
 links:
  - name: Arxiv
    url: 'https://arxiv.org/abs/2406.00227'

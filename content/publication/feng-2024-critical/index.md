@@ -25,6 +25,9 @@ tags:
 
 featured: true
 
+summary: 'Best Paper Runner-Up at ACM SIGSPATIAL 2024. A scale-space method that identifies and tracks topologically important terrain features directly on Triangulated Irregular Networks, handling irregular point distributions and boundaries that grid-based DEM methods cannot.'
+
+url_pdf: 'https://arxiv.org/pdf/2409.06638'
 
 links:
  - name: Arxiv

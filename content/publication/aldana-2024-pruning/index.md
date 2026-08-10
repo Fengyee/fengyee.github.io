@@ -22,6 +22,8 @@ tags:
 
 featured: true
 
+summary: 'Work in progress on structured pruning for implicit neural representations — removing whole sinusoidal neurons from a trained INR to shrink the model while preserving reconstruction quality.'
+
 # links:
 #  - name: Arxiv
 #    url: 'https://arxiv.org/abs/2406.00227'

@@ -25,6 +25,11 @@ tags:
 
 featured: true
 
+summary: 'Benchmarking, diagnosing, and fixing camera motion understanding in VideoLLMs. We release CameraMotionDataset and CameraMotionVQA, probe where camera cues are lost in the vision encoder, and inject geometry-derived motion primitives at inference — no fine-tuning required.'
+
+url_pdf: 'https://arxiv.org/pdf/2603.13119'
+url_dataset: 'https://huggingface.co/datasets/fengyee/camera-motion-dataset-and-benchmark'
+
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2603.13119'

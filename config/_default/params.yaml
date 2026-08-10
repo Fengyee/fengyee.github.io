@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Academic website of Haoan Feng, PhD in Computer Science at University of Maryland (College Park)'
+    description: 'Haoan Feng — PhD candidate in Computer Science at the University of Maryland, College Park, advised by Prof. Leila De Floriani. Research interest on spatial intelligence and world models built on explicit 3D representations: implicit neural representations, neural terrain and geospatial data modeling, topology-aware shape analysis, and 3D/video vision-language models. Publications at CVPR, ACM SIGSPATIAL, and ACM TSAS.'
     twitter: 'Fengyee_HF'
   analytics:
     google_analytics: ''

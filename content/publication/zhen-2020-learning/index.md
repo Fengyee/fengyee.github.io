@@ -15,6 +15,10 @@ publication_types:
 publication: '*Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK,
   August 23--28, 2020, Proceedings, Part XXVII 16*'
 
+summary: 'An unsupervised video object segmentation method that learns discriminative appearance and motion features and refines them with a conditional random field (CRF). Published at ECCV 2020.'
+
+url_pdf: 'https://arxiv.org/pdf/2008.01270'
+
 links:
 - name: Arxiv
   url: 'https://arxiv.org/abs/2008.01270'
