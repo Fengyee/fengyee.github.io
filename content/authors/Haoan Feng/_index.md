@@ -45,14 +45,16 @@ profiles:
     url: https://orcid.org/0000-0002-3667-3990
 
 interests:
+  - Spatial Intelligence
+  - World Models with Explicit 3D Representations
   - Spatial Representation Learning
   - Neural Rendering
   - Topological/Morphological Analysis
-  - Information Retrieval
   - Generative Model
-  - Data Visualization
-  - AI4Science
   - Vision-Language Model
+  - AI4Science
+  - Data Visualization
+  - Information Retrieval
 
 education:
   - area: PhD in Computer Science
@@ -215,6 +217,8 @@ languages:
 ## Biography
 
 I am a researcher at the [University of Maryland, College Park](https://umd.edu), focused on the intersection of computer vision, geometry processing, and geospatial data analysis. My research centers on **neural representations of geospatial data**, combining implicit neural modeling, topology-aware analysis, and generative frameworks to enable interpretable, continuous, and scalable representations of the physical world. I am motivated by interdisciplinary collaboration that bridges machine learning, graphics, and scientific computing.
+
+Looking ahead, I want to carry this work toward **spatial intelligence**: machines that reason about the physical world through geometry rather than pixels alone. I am especially drawn to **world models built on explicit 3D representations** — implicit neural fields, Gaussian splats, and triangulated meshes — where the scene structure is something you can query, differentiate, and edit.
 
 During my BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), I was gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, I am gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/).
 
