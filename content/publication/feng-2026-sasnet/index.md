@@ -22,6 +22,12 @@ tags:
 
 featured: true
 
+summary: 'A spatially-adaptive sinusoidal network for implicit neural representations. A frozen frequency embedding fixes the frequency support while jointly learned spatial masks localize each neuron, giving sharper edges, less background noise, and faster convergence on images, volumes, and SDFs.'
+
+url_pdf: 'https://arxiv.org/pdf/2503.09750'
+url_code: 'https://github.com/Fengyee/SASNet_inr'
+url_video: 'https://www.youtube.com/watch?v=mds9ux0_X-8'
+
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2503.09750'
