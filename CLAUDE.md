@@ -4,7 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A personal academic website for Haoan Feng (PhD student at UMD), built with [Hugo](https://gohugo.io/) and the [Hugo Blox](https://hugoblox.com/) (formerly Wowchemy) framework, deployed via Netlify. Hugo version is pinned at `0.126.3`.
+A personal academic website for Haoan Feng (PhD student at UMD), built with [Hugo](https://gohugo.io/) and the [Hugo Blox](https://hugoblox.com/) (formerly Wowchemy) framework.
+
+**Deployment:** the live site at <https://fengyee.github.io/> is built and published by GitHub Actions (`.github/workflows/publish.yaml`) on every push to `main`, using Hugo **0.140.0**. `netlify.toml` and `hugoblox.yaml` still declare `0.126.3`, but Netlify is not the live deploy path — treat `publish.yaml` as the authority.
+
+**Local Hugo:** use the vendored `./bin/hugo` (0.140.0, matching CI). Newer Hugo releases break this site's Hugo Blox modules, so do not upgrade or fall back to a system-installed `hugo`.
 
 ## Commands
 
@@ -58,7 +62,7 @@ All Hugo config is in `config/_default/`:
 
 ### Generated / do not edit
 
-- `public/` — Build output, committed for GitHub Pages deployment.
+- `public/` — Local build output. Gitignored and **not** tracked; GitHub Actions rebuilds it on deploy. The copy on disk may be stale (e.g. baked with a `localhost:1313` baseURL) — never read it to check what the live site says; fetch <https://fengyee.github.io/> instead.
 - `resources/` — Hugo asset cache.
 - `hugo_stats.json` — Used for CSS purging; regenerated on build.
 
