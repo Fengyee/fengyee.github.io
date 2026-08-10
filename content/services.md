@@ -22,8 +22,12 @@ Geospatial Computing, **Spring 2024, 2025**
 
 ### Conference Reviewer
 
-* Conference on Neural Information Processing Systems ([NeurIPS 2025](https://neurips.cc/))
-* International Conference on Pattern Recognition [(ICPR 2024)](https://icpr2024.org/)
+* Conference on Neural Information Processing Systems ([NeurIPS](https://neurips.cc/)), **2025, 2026**
+* European Conference on Computer Vision ([ECCV](https://eccv.ecva.net/)), **2026**
+* IEEE/CVF Conference on Computer Vision and Pattern Recognition ([CVPR](https://cvpr.thecvf.com/)), **2026**
+* IEEE/CVF International Conference on Computer Vision ([ICCV](https://iccv.thecvf.com/)), **2026**
+* Pacific Graphics ([PG](https://pacificgraphics.org/)), **2026**
+* International Conference on Pattern Recognition ([ICPR](https://icpr2024.org/)), **2024**
 
 ## Extracurricular Services
 
