@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student in Computer Science
+role: Ph.D. Candidate in Computer Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -54,7 +54,6 @@ interests:
   - Vision-Language Model
   - AI4Science
   - Data Visualization
-  - Information Retrieval
 
 education:
   - area: PhD in Computer Science
