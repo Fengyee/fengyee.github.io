@@ -28,9 +28,16 @@ featured: true
 
 summary: 'A wavelet-guided, spatially adaptive implicit neural representation for digital elevation models. A wavelet complexity field localizes high-frequency capacity to complex terrain, and post-training compression reaches 1.23 bpp — 66.25 dB PSNR on Swiss terrain tiles, +5.70 dB over prior work with 3.2x fewer parameters.'
 
+url_pdf: 'https://arxiv.org/pdf/2605.22556'
+url_code: 'https://github.com/Fengyee/implicitterrainv2/tree/main/code'
+
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2605.22556'
+ - name: Code
+   url: 'https://github.com/Fengyee/implicitterrainv2/tree/main/code'
+
+url_project: 'https://fengyee.github.io/implicitterrainv2/'
 ---
 
 {{% callout note %}}

@@ -29,9 +29,16 @@ featured: true
 
 summary: 'A controlled benchmark of amortized neural representations on high-resolution (1 m/pixel) terrain elevation data, and HUVR+SIREN — a hypernetwork with a smooth, analytically differentiable decoder that attains the best height and derivative fidelity with no extra per-tile storage.'
 
+url_pdf: 'https://arxiv.org/pdf/2606.00404'
+url_code: 'https://github.com/Fengyee/huvr_siren/tree/main/code'
+
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2606.00404'
+ - name: Code
+   url: 'https://github.com/Fengyee/huvr_siren/tree/main/code'
+
+url_project: 'https://fengyee.github.io/huvr_siren/'
 ---
 
 {{% callout note %}}
