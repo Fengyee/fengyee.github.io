@@ -111,7 +111,7 @@ work:
 
       Responsibilities include:
       - Developed a geometry-guided framework to augment Video Large Language Models (VideoLLMs) with cinematographic camera motion understanding, resulting in a first-author publication accepted at CVPR 2026 Workshop PVUW.
-      - Created a synthetic video benchmark using Unreal Engine 5 and designed probing experiments to evaluate spatial retention in vision encoders via Q-former.
+      - Curated and labeled a camera-motion benchmark from UE5-rendered video (CameraMotionDataset / CameraMotionVQA, 12,274 segments) with ground-truth camera metadata, and designed probing experiments to evaluate spatial retention in vision encoders via Q-former.
       - Proposed a plug-and-play strategy that injects camera motion, framing, and spatial descriptors into VideoLLMs, improving reasoning for video captioning, VQA, and stylistic plagiarism detection.
   - position: Moodle Software Developer and Technical Support
     company_name: Hong Kong University of Science and Technology
