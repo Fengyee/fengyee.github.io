@@ -50,10 +50,6 @@ interests:
   - Spatial Representation Learning
   - Neural Rendering
   - Topological/Morphological Analysis
-  - Generative Model
-  - Vision-Language Model
-  - AI4Science
-  - Data Visualization
 
 education:
   - area: PhD in Computer Science

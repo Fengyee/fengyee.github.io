@@ -1,0 +1,71 @@
+{{ $person := site.GetPage (printf "/authors/%s" .wcBlock.content.username) }}
+<div class="academic-home">
+  <div class="academic-hero">
+    <div class="academic-wrap hero-grid">
+      <aside class="identity">
+        {{ with ($person.Resources.ByType "image").GetMatch "*avatar*" }}
+          {{ $avatar := .Fill "360x360 Center" }}
+          <img class="portrait" src="{{ $avatar.RelPermalink }}" width="180" height="180" alt="{{ $person.Title }}">
+        {{ end }}
+        <h1>{{ $person.Title }}</h1>
+        <p class="role">{{ $person.Params.role }}</p>
+        {{ range $person.Params.organizations }}<p><a href="{{ .url }}">{{ .name }}</a></p>{{ end }}
+        <ul class="social-links">
+          {{ range $person.Params.profiles }}
+          <li><a href="{{ .url | safeURL }}" aria-label="{{ .label | default .icon }}">{{ partial "functions/get_icon" (dict "name" .icon "attributes" "aria-hidden='true'") }}</a></li>
+          {{ end }}
+        </ul>
+        <a class="cv-link" href="{{ .wcBlock.content.cv | relURL }}">{{ partial "functions/get_icon" (dict "name" "arrow-down-tray" "attributes" "aria-hidden='true'") }} Latest CV</a>
+      </aside>
+      <div class="biography">
+        {{/* Keep author prose intact; display its closing quotation below the experience summary. */}}
+        {{ replaceRE `(?s)<blockquote>.*?</blockquote>` "" $person.Content | safeHTML }}
+        <div class="interests"><h3>Interests</h3><ul>{{ range $person.Params.interests }}<li>{{ . }}</li>{{ end }}</ul></div>
+      </div>
+    </div>
+  </div>
+  <section id="news" class="academic-wrap home-section">
+    <div class="section-heading news-heading"><div><p class="section-eyebrow">Updates &amp; milestones</p><h2>News</h2></div><a href="{{ "news/" | relURL }}">Full archive <span aria-hidden="true">↗</span></a></div>
+    <ol class="news-timeline">
+      {{ range .wcBlock.content.news }}
+        <li><div class="timeline-date">{{ .date }}</div><div class="timeline-entry">{{ .text | markdownify }}</div></li>
+      {{ end }}
+    </ol>
+  </section>
+  <section id="publications" class="academic-wrap home-section">
+    <div class="section-heading"><h2>Selected Research</h2><a href="{{ "publication/" | relURL }}">All publications <span aria-hidden="true">↗</span></a></div>
+    {{ range .wcBlock.content.selected }}
+      {{ $paper := site.GetPage (printf "/publication/%s" .) }}
+      {{ if not $paper }}{{ errorf "Selected publication not found: %s" . }}{{ end }}
+      <article class="research-row">
+        <a class="research-image" href="{{ $paper.RelPermalink }}" tabindex="-1" aria-hidden="true">
+          {{ with partial "functions/get_featured_image.html" $paper }}
+            {{ $image := .Fit "800x600 webp" }}
+            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="" loading="lazy">
+          {{ end }}
+        </a>
+        <div>
+          <p class="venue">{{ $paper.Params.publication | markdownify }} · {{ $paper.Date.Format "2006" }}</p>
+          <h3><a href="{{ $paper.RelPermalink }}">{{ $paper.Title }}</a></h3>
+          <p class="authors">{{ range $i, $author := $paper.Params.authors }}{{ if $i }}, {{ end }}{{ if eq $author $person.Title }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p>
+          <p class="research-summary">{{ index (findRE `^.*?[.!?](?:\s|$)` $paper.Params.summary 1) 0 | markdownify }}</p>
+          <div class="resource-links">{{ partial "page_links.html" (dict "page" $paper "is_list" true) }}</div>
+        </div>
+      </article>
+    {{ end }}
+  </section>
+  <section id="background" class="academic-wrap home-section">
+    <div class="section-heading"><h2>About &amp; Experience</h2><a href="{{ "experience/" | relURL }}">Full experience <span aria-hidden="true">↗</span></a></div>
+    <div class="experience-grid">
+      <div><h3>Education</h3>{{ range $person.Params.education }}<div class="experience-item"><p class="venue">{{ time.Format "2006" .date_start }} – {{ time.Format "2006" .date_end }}</p><h4>{{ .area }}</h4><p>{{ .institution }}</p></div>{{ end }}</div>
+      <div><h3>Research Experience</h3>{{ range first 2 $person.Params.work }}<div class="experience-item"><p class="venue">{{ time.Format "Jan 2006" .date_start }} – {{ time.Format "Jan 2006" .date_end }}</p><h4>{{ .position }}</h4><p>{{ .company_name }}</p></div>{{ end }}</div>
+    </div>
+    {{ range findRE `(?s)<blockquote>.*?</blockquote>` $person.Content }}{{ . | safeHTML }}{{ end }}
+  </section>
+  <div class="home-tint"><section id="talks" class="academic-wrap home-section">
+    <div class="section-heading"><h2>Talks &amp; Service</h2><div><a href="{{ "event/" | relURL }}">All talks ↗</a><a href="{{ "services/" | relURL }}">Academic service ↗</a></div></div>
+    {{ range first 3 (where site.RegularPages "Section" "event").ByDate.Reverse }}
+    <article class="talk-row"><p class="venue">{{ .Date | time.Format "Jan 2006" }}</p><div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.event | markdownify }}</p><div class="resource-links">{{ partial "page_links.html" (dict "page" . "is_list" true) }}</div></div></article>
+    {{ end }}
+  </section></div>
+</div>
