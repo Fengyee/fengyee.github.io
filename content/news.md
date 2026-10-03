@@ -2,6 +2,8 @@
 title: News Archive
 ---
 
+* **[Oct. 2026]** Our paper [A Topology-Guided GeoAI Agentic Framework for Urban Flood Screening](/publication/tao-2026-topology-guided-geoai/) was accepted at **[OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026/)**, the ACM SIGSPATIAL Student Challenge on Open Agents with Spatial Intelligence for Social Good. Our team is a **top-10 finalist**, received a **Google DeepMind Student Travel Grant**, and was selected for an **on-site presentation and demo** in Riverside, CA, on November 3.
+
 * **[Aug. 2026]** Two papers accepted at [ACM SIGSPATIAL 2026](https://sigspatial2026.sigspatial.org/): [ImplicitTerrainV2: Wavelet-Guided Spatially Adaptive Neural Terrain Representation](https://arxiv.org/abs/2605.22556) as a **full paper**, and [Rethinking Amortized Neural Representations for High-Resolution Terrain Elevation Data](https://arxiv.org/abs/2606.00404) as a **poster paper**. See you @Riverside, CA in November! 🗺️
 
 * **[Aug. 2026]** Our TSAS article [A Parallel Scale-Space Method for Critical Features Tracking on Triangulated Irregular Networks](https://dl.acm.org/doi/10.1145/3812549) is now published in the **ACM Digital Library** (*ACM Transactions on Spatial Algorithms and Systems*, Vol. 12, Issue 4). 📚

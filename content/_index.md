@@ -16,6 +16,8 @@ sections:
         - feng-2026-tsas-scale-space
         - feng-2026-geometry-guided-camera-motion
       news:
+        - date: Oct. 2026
+          text: 'Our [topology-guided GeoAI agent](/publication/tao-2026-topology-guided-geoai/) is a **top-10 finalist at [OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026/)**, the ACM SIGSPATIAL student challenge. Our team received a **Google DeepMind Student Travel Grant** and was selected for an on-site presentation and demo.'
         - date: Aug. 2026
           text: '[ImplicitTerrainV2](https://arxiv.org/abs/2605.22556) (full paper) and [Amortized Terrain](https://arxiv.org/abs/2606.00404) (poster) accepted at **ACM SIGSPATIAL 2026**.'
         - date: Aug. 2026
