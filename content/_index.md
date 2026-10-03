@@ -9,7 +9,7 @@ sections:
     id: about
     content:
       username: Haoan Feng
-      cv: uploads/cv_2026_09.pdf
+      cv: uploads/cv_2026_10.pdf
       selected:
         - feng-2026-sasnet
         - feng-2026-implicitterrain-v2
