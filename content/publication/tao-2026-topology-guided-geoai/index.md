@@ -8,6 +8,7 @@ authors:
 highlight_name: true
 date: '2026-11-03'
 publishDate: '2026-10-03'
+lastmod: '2026-10-22'
 publication_types:
   - paper-conference
 publication: 'In *The 1st ACM SIGSPATIAL Student Challenge on Open Agents with Spatial Intelligence for Social Good (OASIS 2026)*, to appear'
@@ -21,7 +22,10 @@ tags:
   - Human-in-the-Loop
   - Urban Flood Screening
 featured: false
+url_pdf: 'https://arxiv.org/pdf/2610.30660'
 links:
+  - name: arXiv
+    url: 'https://arxiv.org/abs/2610.30660'
   - name: OASIS 2026
     url: 'https://rsvp.withgoogle.com/events/oasis-2026/'
 ---
@@ -36,6 +40,6 @@ Our team received a **Google DeepMind Student Travel Grant** to support particip
 
 The framework starts from a place name or boundary, retrieves public geospatial layers, extracts terrain basins using discrete Morse theory, and ranks them for preliminary flood screening. Language-model calls select a persistence threshold, draft recommendations, and review them against the computed evidence. Three human checkpoints allow users to revise the threshold, ranking weights, or recommendation.
 
-The evaluation covers five study areas. It measures agreement with D8 flow routing on the same elevation grid and checks ranking sensitivity; the scores support preliminary screening and are not calibrated flood probabilities.
+The evaluation covers five study areas. In College Park, persistence-based simplification reduced 278 raw terrain minima to 70 candidate basins; 77% of the retained basin minima also coincided with D8 sinks. Agreement ranged from 61% to 83% in the four additional areas. The highest-priority College Park basin remained first under all four tested weighting schemes. These are checks of consistency and ranking sensitivity, rather than validation against observed flood events; the scores support preliminary screening and are not calibrated flood probabilities.
 
-The paper is not yet available on arXiv. The assigned DOI is `10.1145/3849739.3856761`; its landing page is not yet available.
+The [preprint is available on arXiv](https://arxiv.org/abs/2610.30660), posted October 22, 2026. The accepted OASIS 2026 paper has the assigned ACM DOI `10.1145/3849739.3856761`.

@@ -76,6 +76,7 @@ html { scroll-behavior: smooth; }
 .dark .academic-home article, .dark .interests, .dark .news-list li { border-color: #344452; }
 @media (max-width: 1050px) { .hero-grid { grid-template-columns: 220px minmax(0, 1fr); gap: 36px; } .research-row { grid-template-columns: 240px minmax(0, 1fr); gap: 28px; } }
 @media (max-width: 767px) {
+  main .max-w-prose > .flex.justify-center { flex-wrap: wrap; row-gap: .5rem; }
   .academic-wrap { width: calc(100% - 40px); }
   .hero-grid { grid-template-columns: 1fr; gap: 35px; padding-block: 32px 38px; }
   .academic-hero::before { background-size: 650px auto; background-position: right -290px top -70px; opacity: .12; mask-image: linear-gradient(to bottom, #000, transparent 550px); }
