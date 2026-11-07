@@ -16,6 +16,8 @@ sections:
         - feng-2026-tsas-scale-space
         - feng-2026-geometry-guided-camera-motion
       news:
+        - date: Nov. 2026
+          text: 'At **ACM SIGSPATIAL in Riverside**, I presented [ImplicitTerrainV2](/publication/feng-2026-implicitterrain-v2/) in an oral session and [our work on amortized terrain representations](/publication/feng-2026-amortized-terrain/) in a lightning talk and poster session. Xin Xu, Yutian Tao, and I also participated in the [OASIS Student Challenge](/publication/tao-2026-topology-guided-geoai/) as a team with our urban flood screening project.'
         - date: Oct. 2026
           text: 'The [preprint](https://arxiv.org/abs/2610.30660) for our [topology-guided GeoAI agent](/publication/tao-2026-topology-guided-geoai/) is now available. The project is a **top-10 finalist at [OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026/)**, the ACM SIGSPATIAL student challenge. Our team received a **Google DeepMind Student Travel Grant** and was selected for an on-site presentation and demo.'
         - date: Aug. 2026

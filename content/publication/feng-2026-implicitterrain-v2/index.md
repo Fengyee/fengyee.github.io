@@ -28,6 +28,7 @@ featured: true
 
 summary: 'A wavelet-guided, spatially adaptive implicit neural representation for digital elevation models. A wavelet complexity field localizes high-frequency capacity to complex terrain, and post-training compression reaches 1.23 bpp — 66.25 dB PSNR on Swiss terrain tiles, +5.70 dB over prior work with 3.2x fewer parameters.'
 
+url_slides: '/uploads/sigspatial-2026/implicitterrainv2-oral-slides.pdf'
 url_pdf: 'https://arxiv.org/pdf/2605.22556'
 url_code: 'https://github.com/Fengyee/implicitterrainv2/tree/main/code'
 
@@ -45,3 +46,5 @@ url_project: 'https://fengyee.github.io/implicitterrainv2/'
 
 A follow-up to [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) (CVPR 2024 INRV Workshop), advancing terrain INRs toward a compact, efficient neural terrain data format with wavelet-guided spatial adaptivity, derivative-aware supervision, and post-training compression.
 {{% /callout %}}
+
+{{< figure src="/uploads/sigspatial-2026/oral.jpg" alt="Haoan Feng presenting ImplicitTerrainV2 at the podium in Riverside." >}}

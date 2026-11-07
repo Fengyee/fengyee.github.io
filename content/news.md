@@ -2,6 +2,8 @@
 title: News Archive
 ---
 
+* **[Nov. 2026]** At **ACM SIGSPATIAL in Riverside**, I presented [ImplicitTerrainV2](/publication/feng-2026-implicitterrain-v2/) in an oral session and [our work on amortized terrain representations](/publication/feng-2026-amortized-terrain/) in a lightning talk and poster session. Xin Xu, Yutian Tao, and I also participated in the [OASIS Student Challenge](/publication/tao-2026-topology-guided-geoai/) as a team with our urban flood screening project.
+
 * **[Oct. 2026]** Our paper [A Topology-Guided GeoAI Agentic Framework for Urban Flood Screening](/publication/tao-2026-topology-guided-geoai/) was accepted at **[OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026/)**, the ACM SIGSPATIAL Student Challenge on Open Agents with Spatial Intelligence for Social Good. Our team is a **top-10 finalist**, received a **Google DeepMind Student Travel Grant**, and was selected for an **on-site presentation and demo** in Riverside, CA, on November 3.
 
 * **[Aug. 2026]** Two papers accepted at [ACM SIGSPATIAL 2026](https://sigspatial2026.sigspatial.org/): [ImplicitTerrainV2: Wavelet-Guided Spatially Adaptive Neural Terrain Representation](https://arxiv.org/abs/2605.22556) as a **full paper**, and [Rethinking Amortized Neural Representations for High-Resolution Terrain Elevation Data](https://arxiv.org/abs/2606.00404) as a **poster paper**. See you @Riverside, CA in November! 🗺️

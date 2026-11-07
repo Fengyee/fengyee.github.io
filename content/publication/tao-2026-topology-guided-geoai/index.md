@@ -33,8 +33,10 @@ links:
 {{% callout note %}}
 **Accepted at OASIS 2026**, the ACM SIGSPATIAL Student Challenge on Open Agents with Spatial Intelligence for Social Good. Our team is a **top-10 finalist** and was selected for an **on-site presentation and demo** in Riverside, CA, on November 3, 2026.
 
-Our team received a **Google DeepMind Student Travel Grant** to support participation.
+Xin Xu, Yutian Tao, and Haoan Feng participated in the challenge together in Riverside. Our team received a **Google DeepMind Student Travel Grant** to support participation.
 {{% /callout %}}
+
+{{< figure src="/uploads/sigspatial-2026/oasis.jpg" alt="Group photo at the OASIS Student Challenge finalist presentations in Riverside." >}}
 
 {{< figure src="figure-1.png" link="figure-1.png" target="_blank" rel="noopener" alt="Five-stage workflow showing data acquisition, topological analysis, ranking and validation, recommendation and reflection, and interactive outputs. Purple arrows mark three human-in-the-loop checkpoints." caption="Figure 1. Workflow of the framework with intermediate results. Deterministic stages retrieve and align data, extract and rank Morse basins, and compare them with D8 routing and with re-ranking under alternative weights. Separate language-model calls select the persistence threshold, draft the recommendation, review it against the recorded evidence, and answer later user questions. Purple arrows mark the three human-in-the-loop (HITL) checkpoints." >}}
 

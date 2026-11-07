@@ -29,6 +29,9 @@ featured: true
 
 summary: 'A controlled benchmark of amortized neural representations on high-resolution (1 m/pixel) terrain elevation data, and HUVR+SIREN — a hypernetwork with a smooth, analytically differentiable decoder that attains the best height and derivative fidelity with no extra per-tile storage.'
 
+url_poster: '/uploads/sigspatial-2026/amortized-terrain-poster.pdf'
+url_slides: '/uploads/sigspatial-2026/amortized-terrain-lightning-slides.pdf'
+url_video: '/uploads/sigspatial-2026/amortized-terrain-lightning-talk.mp4'
 url_pdf: 'https://arxiv.org/pdf/2606.00404'
 url_code: 'https://github.com/Fengyee/huvr_siren/tree/main/code'
 
@@ -46,3 +49,5 @@ url_project: 'https://fengyee.github.io/huvr_siren/'
 
 A controlled benchmark of amortized neural representations on high-resolution (1 m/pixel) terrain elevation data, and **HUVR+SIREN** — a hypernetwork with a smooth, analytically differentiable decoder that attains the best height and derivative fidelity with no extra per-tile storage. Part of our ongoing work on neural terrain representations, alongside [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) and ImplicitTerrainV2.
 {{% /callout %}}
+
+{{< figure src="/uploads/sigspatial-2026/poster.jpg" alt="Haoan Feng discussing the terrain decoder with a visitor at the poster session." >}}
