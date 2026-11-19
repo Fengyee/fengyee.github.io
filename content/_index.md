@@ -11,11 +11,14 @@ sections:
       username: Haoan Feng
       cv: uploads/cv_2026_10.pdf
       selected:
+        - feng-2026-ffgausstype
         - feng-2026-sasnet
         - feng-2026-implicitterrain-v2
         - feng-2026-tsas-scale-space
         - feng-2026-geometry-guided-camera-motion
       news:
+        - date: Nov. 2026
+          text: 'New preprint [FFGaussType: Feed-Forward Conversion of Glyph and SVG Geometry into Compact Gaussian Assets](/publication/feng-2026-ffgausstype/), from my 2026 internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/). It brings text and icons into volumetric videos built on 4D Gaussians: one 9.1 ms forward pass turns a glyph or SVG outline into a relightable Gaussian asset. Videos on the [project page](https://fengyee.github.io/FFGaussType/). 🔤'
         - date: Nov. 2026
           text: 'At **ACM SIGSPATIAL in Riverside**, I presented [ImplicitTerrainV2](/publication/feng-2026-implicitterrain-v2/) in an oral session and [our work on amortized terrain representations](/publication/feng-2026-amortized-terrain/) in a lightning talk and poster session. Xin Xu, Yutian Tao, and I also participated in the [OASIS Student Challenge](/publication/tao-2026-topology-guided-geoai/) as a team with our urban flood screening project.'
         - date: Oct. 2026

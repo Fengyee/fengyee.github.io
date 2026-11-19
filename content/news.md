@@ -2,6 +2,8 @@
 title: News Archive
 ---
 
+* **[Nov. 2026]** New preprint [FFGaussType: Feed-Forward Conversion of Glyph and SVG Geometry into Compact Gaussian Assets](/publication/feng-2026-ffgausstype/), from my 2026 internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/). It brings text and icons into volumetric videos built on 4D Gaussians: one 9.1 ms forward pass turns a glyph or SVG outline into a relightable Gaussian asset. Videos on the [project page](https://fengyee.github.io/FFGaussType/). 🔤
+
 * **[Nov. 2026]** At **ACM SIGSPATIAL in Riverside**, I presented [ImplicitTerrainV2](/publication/feng-2026-implicitterrain-v2/) in an oral session and [our work on amortized terrain representations](/publication/feng-2026-amortized-terrain/) in a lightning talk and poster session. Xin Xu, Yutian Tao, and I also participated in the [OASIS Student Challenge](/publication/tao-2026-topology-guided-geoai/) as a team with our urban flood screening project.
 
 * **[Oct. 2026]** Our paper [A Topology-Guided GeoAI Agentic Framework for Urban Flood Screening](/publication/tao-2026-topology-guided-geoai/) was accepted at **[OASIS 2026](https://rsvp.withgoogle.com/events/oasis-2026/)**, the ACM SIGSPATIAL Student Challenge on Open Agents with Spatial Intelligence for Social Good. Our team is a **top-10 finalist**, received a **Google DeepMind Student Travel Grant**, and was selected for an **on-site presentation and demo** in Riverside, CA, on November 3.
@@ -20,7 +22,7 @@ title: News Archive
 
 * **[Mar. 2026]** Our paper [SASNet: Spatially-Adaptive Sinusoidal Networks for INRs](https://arxiv.org/abs/2503.09750) is accepted at **CVPR 2026**. See you @Denver! ✨
 
-* **[Aug. 2025]** Completed a rewarding summer journey as a **PhD Research Intern** at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/).  Grateful to my mentor [Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/) and manager [Guan-ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) for their guidance and support throughout this internship. 🚀
+* **[Aug. 2025]** Completed a rewarding summer journey as a **PhD Research Intern** at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/).  Grateful to my mentor [Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/) and manager [Guan-Ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) for their guidance and support throughout this internship. 🚀
 
 * **[Oct. 2024]** Our paper [scale space for TINs](https://fengyee.github.io/tin-scale-space) received the **best paper runner-up** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/). 🏆
 
