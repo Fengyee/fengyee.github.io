@@ -28,9 +28,13 @@ featured: true
 
 summary: 'Bring text and icons into volumetric videos built on 4D Gaussians. FFGaussType converts a glyph or SVG outline into a relightable Gaussian asset in a single 9.1 ms forward pass, so creators can restyle material and lighting freely.'
 
+url_pdf: 'https://arxiv.org/pdf/2611.26431'
 url_project: 'https://fengyee.github.io/FFGaussType/'
+links:
+  - name: arXiv
+    url: 'https://arxiv.org/abs/2611.26431'
 ---
 
 {{% callout note %}}
-Developed during my 2026 summer internship at Dolby Laboratories – Advanced Technology Group (ATG). Videos and results are on the [project page](https://fengyee.github.io/FFGaussType/).
+Developed during my 2026 summer internship at Dolby Laboratories – Advanced Technology Group (ATG). Paper on [arXiv](https://arxiv.org/abs/2611.26431); videos and results on the [project page](https://fengyee.github.io/FFGaussType/).
 {{% /callout %}}
