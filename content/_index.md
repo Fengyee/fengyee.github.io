@@ -9,7 +9,7 @@ sections:
     id: about
     content:
       username: Haoan Feng
-      cv: uploads/cv_2026_10.pdf
+      cv: uploads/cv_2026_11.pdf
       selected:
         - feng-2026-ffgausstype
         - feng-2026-sasnet
