@@ -2,6 +2,7 @@
 title: 'Presentation of SASNet @ CVPR 2026'
 
 event: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)'
+event_short: 'CVPR 2026 · Denver, CO'
 event_url: https://cvpr.thecvf.com/Conferences/2026
 
 location: 'Colorado Convention Center, Denver, CO, USA'

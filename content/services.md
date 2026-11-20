@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Teaching & Service
 date: 2024-09-15
 ---
 

@@ -8,7 +8,7 @@ A personal academic website for Haoan Feng (PhD student at UMD), built with [Hug
 
 **Deployment:** the live site at <https://fengyee.github.io/> is built and published by GitHub Actions (`.github/workflows/publish.yaml`) on every push to `main`, using Hugo **0.140.0**. `netlify.toml` and `hugoblox.yaml` still declare `0.126.3`, but Netlify is not the live deploy path — treat `publish.yaml` as the authority.
 
-**Local Hugo:** use the vendored `./bin/hugo` (0.140.0, matching CI). Newer Hugo releases break this site's Hugo Blox modules, so do not upgrade or fall back to a system-installed `hugo`.
+**Local Hugo:** use the vendored `./bin/hugo` (0.140.0, matching CI). Newer Hugo releases break this site's Hugo Blox modules, so do not upgrade or fall back to a system-installed `hugo`. `./bin/hugo` is a macOS binary; on Linux (e.g. cloud sessions) use the same release, `hugo_extended_0.140.0_linux-amd64.tar.gz`, outside the repo.
 
 ## Commands
 
@@ -34,7 +34,8 @@ No test suite exists. Verification is a clean `hugo` build with no warnings, fol
 
 All site content lives in `content/` as Markdown with YAML front matter:
 
-- `content/_index.md` — Homepage, assembled from Hugo Blox "blocks" (resume-biography-3, markdown, collection). This is where the landing page sections (News, Publications, Presentations) are configured.
+- `content/_index.md` — Homepage config for the custom `academic-home` block (`layouts/partials/blox/academic-home.html`): `seo.title`, `tagline`, `status`, `hero` (`feature` plays that paper's `home_video`; `caption`), `highlights`, `selected` papers (first = wide feature card, next 4 = 2x2 grid, rest = compact rows), `side_projects`, `life` (image/alt/text card next to them), `cv` (also drives the stable `/cv/` redirect, `layouts/cv/single.html`), and `news` (homepage shows the first `news_count`; `content/news.md` is the full archive).
+- Per-paper homepage card fields: `home_label`, `home_summary`, `home_image`, `home_video`, `home_poster` in a publication's front matter, with the files in its bundle. Without `home_image` the card falls back to `featured.*`; without `home_summary` it uses the first sentence of `summary`. Talk rows use each event's `event_short` and featured image.
 - `content/authors/Haoan Feng/_index.md` — The primary author profile: bio, social links, education, work, awards, skills. This is the main biographical data store.
 - `content/publication/<slug>/index.md` — One directory per paper; front matter drives the publication card (title, authors, date, abstract, tags, links, `featured`).
 - `content/event/<slug>/index.md` — Conference talks and presentations.
@@ -56,6 +57,8 @@ All Hugo config is in `config/_default/`:
 ### Overrides
 
 - `layouts/partials/` — Custom partial templates that override Hugo Blox defaults (hooks and views subdirectories).
+- `layouts/shortcodes/callout.html` and `layouts/partials/blox/resume-experience.html` override the theme so links inside callouts and experience summaries survive (the theme's `markdownify` / landing-page `RenderString` drop link render-hook output). The homepage renders Markdown with links via the author page's `RenderString` for the same reason.
+- Stock-theme trims: `layouts/partials/site_footer.html` (no Hugo Blox promo line), `data/page_sharer.yaml` (LinkedIn / X / Email share buttons only), `cascade` in `config/_default/hugo.yaml` (no reading time or Backlinks sidebar; `layouts/partials/components/backlinks.html` makes `backlinks: false` work).
 - `assets/css/` — Custom CSS overrides (Tailwind-compatible).
 - `assets/media/` — Profile images, icons, and other pipeline-processed media.
 - `static/` — Files served as-is (e.g., PDFs like CV, poster files referenced directly in front matter with `url_poster`).
@@ -65,6 +68,10 @@ All Hugo config is in `config/_default/`:
 - `public/` — Local build output. Gitignored and **not** tracked; GitHub Actions rebuilds it on deploy. The copy on disk may be stale (e.g. baked with a `localhost:1313` baseURL) — never read it to check what the live site says; fetch <https://fengyee.github.io/> instead.
 - `resources/` — Hugo asset cache.
 - `hugo_stats.json` — Used for CSS purging; regenerated on build.
+
+### Archive
+
+`archive/` (repo root) holds content taken off the site but kept: superseded CVs, placeholder publications/projects, removed awards. Hugo does not build it. See `archive/README.md` for what came from where; to restore an item, move it back.
 
 ## Content conventions
 

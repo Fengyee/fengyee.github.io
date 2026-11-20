@@ -1,4 +1,6 @@
 ---
+# Hidden until the project page is written (was "under construction").
+draft: true
 title: "COMP 5411 Advanced Computer Graphics"
 date: 2024-09-15
 tags:

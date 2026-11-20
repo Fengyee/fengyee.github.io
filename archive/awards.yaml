@@ -1,0 +1,9 @@
+# Awards removed from the public Awards list (content/authors/Haoan Feng/_index.md) on 2026-11-20.
+# Same schema as `awards:` there; move an entry back to show it again.
+awards:
+  - title: 'Simatelex Charitable Foundation Scholarship'
+    awarder: Simatelex Charitable Foundation
+    date: '2015-09-01'
+  - title: University’s Scholarship Scheme for Continuing Undergraduate Students
+    awarder: Hong Kong University of Science and Technology
+    date: '2015-09-01'

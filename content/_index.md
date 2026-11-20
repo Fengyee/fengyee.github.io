@@ -1,5 +1,8 @@
 ---
 title: ""
+# <title> / og:title for the homepage
+seo:
+  title: 'Haoan Feng · 3D Vision & Neural Representations · UMD'
 date: 2024-09-15
 type: landing
 design:
@@ -10,6 +13,42 @@ sections:
     content:
       username: Haoan Feng
       cv: uploads/cv_2026_11.pdf
+      tagline: 'Spatial intelligence through world models built on **explicit 3D representations**: neural fields, Gaussian splats, and triangulated meshes, where scene structure is something you can query, differentiate, and edit.'
+      status: 'Open to full-time Research Scientist / Engineer roles in 3D vision'
+      status_detail: 'Graduating Summer 2027'
+      # Hero media: `feature` plays that paper's `home_video`; `caption` says what the demo shows.
+      hero:
+        feature: feng-2026-ffgausstype
+        caption: 'Text and icons become relightable Gaussian assets inside 4D-Gaussian video, in one 9.1 ms forward pass.'
+      highlights:
+        - label: Papers at
+          items:
+            - CVPR 2026
+            - ACM SIGSPATIAL 2026
+            - ACM TSAS
+        - label: Research internships
+          items:
+            - Dolby Laboratories ATG (2025, 2026)
+        - label: Recognition
+          items:
+            - SIGSPATIAL ’24 Best Paper Runner-up
+            - OASIS ’26 Top-10 Finalist
+        - label: Reviewer
+          items:
+            - CVPR
+            - ICCV
+            - ECCV
+            - NeurIPS
+      # Cards under "Outside the lab" (content/project/<slug>/).
+      side_projects:
+        - meowverse
+      # Card next to the side projects (image under assets/).
+      life:
+        image: media/bella.jpg
+        alt: 'Bella the cat, asleep on a blue blanket'
+        text: '**Bella**, my cat, and the muse behind Meowverse.'
+      # Homepage shows the first N news items; the full list stays on /news/.
+      news_count: 4
       selected:
         - feng-2026-ffgausstype
         - feng-2026-sasnet
@@ -18,7 +57,7 @@ sections:
         - feng-2026-geometry-guided-camera-motion
       news:
         - date: Nov. 2026
-          text: 'New preprint [FFGaussType: Feed-Forward Conversion of Glyph and SVG Geometry into Compact Gaussian Assets](/publication/feng-2026-ffgausstype/), from my 2026 internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/). It brings text and icons into volumetric videos built on 4D Gaussians: one 9.1 ms forward pass turns a glyph or SVG outline into a relightable Gaussian asset. Paper on [arXiv](https://arxiv.org/abs/2611.26431), videos on the [project page](https://fengyee.github.io/FFGaussType/). 🔤'
+          text: 'New preprint [FFGaussType: Feed-Forward Conversion of Glyph and SVG Geometry into Compact Gaussian Assets](/publication/feng-2026-ffgausstype/), from my 2026 internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/). It brings text and icons into volumetric videos built on 4D Gaussians: one 9.1 ms forward pass turns a glyph or SVG outline into a relightable Gaussian asset. Paper on [arXiv](https://arxiv.org/abs/2611.26431), videos on the [project page](https://fengyee.github.io/FFGaussType/).'
         - date: Nov. 2026
           text: 'At **ACM SIGSPATIAL in Riverside**, I presented [ImplicitTerrainV2](/publication/feng-2026-implicitterrain-v2/) in an oral session and [our work on amortized terrain representations](/publication/feng-2026-amortized-terrain/) in a lightning talk and poster session. Xin Xu, Yutian Tao, and I also participated in the [OASIS Student Challenge](/publication/tao-2026-topology-guided-geoai/) as a team with our urban flood screening project.'
         - date: Oct. 2026

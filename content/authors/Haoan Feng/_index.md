@@ -90,6 +90,7 @@ work:
     date_end: 2026-08-14
     summary: |2-
       Mentors: Dr. Peimeng Guan & Dr. Dae Yeol Lee
+
       Manager: Dr. Guan-Ming Su
 
       Greenfield research internship: proposed, scoped, and led my own research project.
@@ -103,6 +104,7 @@ work:
     date_end: 2025-08-31
     summary: |2-
       Mentor: Dr. Sri Harsha Musunuri
+
       Manager: Dr. Guan-Ming Su
 
       Responsibilities include:
@@ -124,12 +126,18 @@ work:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: "Top-10 Finalist, OASIS 2026 Student Challenge"
+    awarder: ACM SIGSPATIAL 2026
+    date: '2026-10-01'
   - title: "Jacob K. Goldhaber Travel Grant to attend CVPR 2026"
     awarder: University of Maryland Graduate School
     date: '2026-05-05'
   - title: "CS Department Travel Award to attend CVPR 2026"
     awarder: University of Maryland, Department of Computer Science
     date: '2026-04-16'
+  - title: "Best Paper Runner-up, ACM SIGSPATIAL 2024"
+    awarder: ACM SIGSPATIAL 2024
+    date: '2024-10-31'
   - title: "NSF travel grant to attend ACM SIGSPATIAL 2024"
     awarder: ACM SIGSPATIAL 2024
     date: '2024-10-01'
@@ -138,25 +146,18 @@ awards:
     date: '2021-09-01'
     # summary: |
     #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: 'Simatelex Charitable Foundation Scholarship'
-    awarder: Simatelex Charitable Foundation
-    date: '2015-09-01'
-  - title: University’s Scholarship Scheme for Continuing Undergraduate Students
-    awarder: Hong Kong University of Science and Technology
-    date: '2015-09-01'
   - title: Champion Team in HackUST (Healthcare Theme)
     awarder: Hong Kong University of Science and Technology
     date: '2017-04-23'
   - title: First Runner-up in VAST Challenge 2016 (Global Data Visualization Competition)
     awarder: IEEE Visual Analytics Science and Technology (VAST)
     date: '2016-10-01'
-
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Python · PyTorch · CUDA
         # description:
         #   Primary development language for published research, implementing machine learning algorithms using the PyTorch framework.
           
@@ -165,14 +166,14 @@ skills:
         #   Evaluated and visualized experimental results using Python packages (e.g., OpenCV, Matplotlib), and collaborated with teammates on the W&B platform for project tracking and experimentation.
         percent: 100
         icon: python
-      - name: C++
+      - name: C++ · OpenMP
         # description:
         #   Implemented scale-space algorithms and data structures for analyzing triangulated irregular networks, following object-oriented programming principles.
           
         #   Optimized algorithm inference speed using parallel computation with the OpenMP library, improving efficiency by parallelizing tasks on leaf nodes in tree structures.
         percent: 90
         icon: code-bracket
-      - name: Others
+      - name: Linux · SLURM · W&B
         # description:
         #   Development primarily in Unix (CentOS) environments, managing computational tasks with SLURM. 
           
@@ -181,12 +182,20 @@ skills:
         #   Experienced in full-stack web development, including backend (NodeJS, PHP) and frontend (ReactJS).
         percent: 85
         icon: wrench-screwdriver
+      - name: Gaussian Splatting · INRs · Viser
+        percent: 90
+        icon: custom/cube
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Building apps with AI agents
+        description: 'Latest: [Meowverse](/project/meowverse/), an iPhone & iPad app now in TestFlight beta.'
+        icon: device-phone-mobile
+        # Shown as its own card on the homepage, so not repeated as a chip there.
+        hide_on_home: true
       - name: Cat
-        description: 'Her name is **Bella**! ![](/bella.jpg)'
+        description: 'Her name is **Bella**, and she inspired [Meowverse](/project/meowverse/).'
         icon: cat
       - name: Hiking
         description: ''
@@ -211,12 +220,10 @@ languages:
 
 ## Biography
 
-I am a researcher at the [University of Maryland, College Park](https://umd.edu), focused on the intersection of computer vision, geometry processing, and geospatial data analysis. My research centers on **neural representations of geospatial data**, combining implicit neural modeling, topology-aware analysis, and generative frameworks to enable interpretable, continuous, and scalable representations of the physical world. I am motivated by interdisciplinary collaboration that bridges machine learning, graphics, and scientific computing.
+I am a Ph.D. candidate in Computer Science at the [University of Maryland, College Park](https://umd.edu), advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/). My research asks how machines should represent the 3D world so they can measure it, reason about it, and edit it. I look for representations that are continuous like the world itself, compact enough to scale, and structured enough to stay interpretable.
 
-Looking ahead, I want to carry this work toward **spatial intelligence**: machines that reason about the physical world through geometry rather than pixels alone. I am especially drawn to **world models built on explicit 3D representations** — implicit neural fields, Gaussian splats, and triangulated meshes — where the scene structure is something you can query, differentiate, and edit.
+I have pursued this question across very different kinds of data: neural fields and topology-aware analysis for terrain and scientific data and, during two internships at [Dolby Laboratories' Advanced Technology Group](https://www.dolby.com/), geometry for video-language models and native 3D assets for volumetric video. The common thread is turning raw samples into structure that downstream systems can use.
 
-During my BEng and MPhil at [Hong Kong University of Science and Technology](https://hkust.edu.hk/), I was gratefully advised by [Prof. Long Quan](https://www.cse.ust.hk/~quan/) in 3D computer graphics and vision. Currently, I am gratefully advised by [Prof. Leila De Floriani](https://users.umiacs.umd.edu/~deflo/).
-
-**Please reach out to chat and collaborate 😆!**
+Before UMD, I studied 3D vision and graphics with [Prof. Long Quan](https://www.cse.ust.hk/~quan/) at [HKUST](https://hkust.edu.hk/) (BEng, MPhil). I am drawn to work where frontier research turns into real products, and I am looking for full-time research scientist or engineer roles starting in Summer 2027.
 
 > "Topology is precisely the mathematical discipline that allows the passage from local to global."    — René Thom

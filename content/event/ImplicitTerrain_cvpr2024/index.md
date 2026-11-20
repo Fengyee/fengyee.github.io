@@ -2,6 +2,7 @@
 title: 'Presentation of ImplicitTerrain @ CVPR2024 INRV Workshop'
 
 event: '1st Workshop on Implicit Neural Representation for Vision (CVPR2024)'
+event_short: 'CVPR 2024 INRV Workshop · Seattle, WA'
 event_url: https://inrv.github.io/
 
 location: 'Seattle Convention Center - Summit 335-336'
@@ -12,7 +13,7 @@ location: 'Seattle Convention Center - Summit 335-336'
 #   postcode: '94305'
 #   country: United States
 
-summary: 'We present our CVPR 2024 paper "ImplicitTerrain: a Continuous Surface Model for Terrain Data Analysis" at the 1st Workshop on Implicit Neural Representation for Vision'
+summary: 'We present our CVPR 2024 workshop paper "ImplicitTerrain: a Continuous Surface Model for Terrain Data Analysis" at the 1st Workshop on Implicit Neural Representation for Vision'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

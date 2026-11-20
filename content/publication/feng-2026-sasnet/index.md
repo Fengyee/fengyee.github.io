@@ -31,12 +31,15 @@ url_video: 'https://www.youtube.com/watch?v=mds9ux0_X-8'
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2503.09750'
- - name: Code
-   url: 'https://github.com/Fengyee/SASNet_inr'
 
 url_project: 'https://fengyee.github.io/SASNet_inr/'
 # url_poster: ''
 # url_slides: ''
+
+# Homepage card (layouts/partials/blox/academic-home.html)
+home_label: 'CVPR 2026'
+home_image: 'home.jpg'
+home_summary: 'Frozen frequency embeddings with learned spatial masks give sharper edges, less background noise, and faster convergence on images, volumes, and SDFs.'
 ---
 
 {{% callout note %}}
