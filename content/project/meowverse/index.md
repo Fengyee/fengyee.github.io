@@ -6,7 +6,6 @@ tags:
   - iOS
   - SwiftUI
   - RealityKit
-  - Side Project
 
 image:
   caption: 'Development-build screenshots (iOS simulator, Nov. 15, 2026); some screens may not be in the current TestFlight build yet.'
@@ -21,7 +20,7 @@ links:
     url: 'https://github.com/Fengyee/meowverse-core'
 
 # Homepage "Outside the lab" card (layouts/partials/blox/academic-home.html)
-home_kicker: 'iPhone & iPad app · side project'
+home_kicker: 'iPhone & iPad app'
 home_tagline: 'Let your photos grow into your cat’s little world.'
 home_meta: 'Shipped to TestFlight · Swift 6 · SwiftUI · RealityKit · 344 core-library tests'
 home_screens:

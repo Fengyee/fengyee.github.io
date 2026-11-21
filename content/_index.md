@@ -40,9 +40,9 @@ sections:
             - ECCV
             - NeurIPS
       # Cards under "Outside the lab" (content/project/<slug>/).
-      side_projects:
+      outside_projects:
         - meowverse
-      # Card next to the side projects (image under assets/).
+      # Card next to the outside-the-lab projects (image under assets/).
       life:
         image: media/bella.jpg
         alt: 'Bella the cat, asleep on a blue blanket'

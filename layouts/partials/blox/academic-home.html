@@ -2,7 +2,7 @@
   Homepage ("Research Portfolio" layout).
   Config lives in content/_index.md under the academic-home block (see CLAUDE.md for keys).
   Per-paper card media and copy come from `home_label` / `home_summary` / `home_image` / `home_video` /
-  `home_poster` in each publication's front matter; side-project cards from `home_*` params in
+  `home_poster` in each publication's front matter; outside-the-lab project cards from `home_*` params in
   content/project/<slug>/index.md; talk rows from event pages (`event_short`, featured image).
 */}}
 {{ $c := .wcBlock.content }}
@@ -217,8 +217,8 @@
 
   {{/* ---------- Outside the lab ---------- */}}
   {{ $projects := slice }}
-  {{ range $c.side_projects }}
-    {{ with site.GetPage (printf "/project/%s" .) }}{{ $projects = $projects | append . }}{{ else }}{{ warnf "academic-home: side_projects entry not found: %s" . }}{{ end }}
+  {{ range $c.outside_projects }}
+    {{ with site.GetPage (printf "/project/%s" .) }}{{ $projects = $projects | append . }}{{ else }}{{ warnf "academic-home: outside_projects entry not found: %s" . }}{{ end }}
   {{ end }}
   {{ if or $projects $c.life }}
   <div class="home-outside">
