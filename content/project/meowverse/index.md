@@ -1,11 +1,12 @@
 ---
 title: 'Meowverse'
-summary: 'An iPhone & iPad app that lets your photos grow into your cat’s little world.'
+summary: 'An iPhone & iPad app that lets your photos grow into your cat’s little world. Apple Vision Pro support is in development.'
 date: '2026-11-14'
 tags:
   - iOS
   - SwiftUI
   - RealityKit
+  - visionOS
 
 image:
   caption: 'Development-build screenshots (iOS simulator, Nov. 15, 2026); some screens may not be in the current TestFlight build yet.'
@@ -20,7 +21,7 @@ links:
     url: 'https://github.com/Fengyee/meowverse-core'
 
 # Homepage "Outside the lab" card (layouts/partials/blox/academic-home.html)
-home_kicker: 'iPhone & iPad app'
+home_kicker: 'iPhone & iPad app · Apple Vision Pro in development'
 home_tagline: 'Let your photos grow into your cat’s little world.'
 home_meta: 'Shipped to TestFlight · Swift 6 · SwiftUI · RealityKit · 344 core-library tests'
 home_screens:
@@ -32,6 +33,7 @@ home_screens:
 
 - **Native iOS and iPadOS 18+ app.** Swift 6, a SwiftUI interface, and a RealityKit renderer; English and Simplified Chinese.
 - **On-device suggestions, your final say.** Apple's Vision framework suggests furniture from a preset catalog on your device; you confirm every choice. It is not photo-to-3D reconstruction.
+- **Apple Vision Pro support in development.** We are bringing Meowverse to Apple Vision Pro.
 - **Now in beta.** TestFlight build 0.1.0 (3), November 2026. A [web demo](https://fengyee.github.io/meowverse/) shows the earlier feature set.
 - **Source-available core.** The [MeowverseCore](https://github.com/Fengyee/meowverse-core) library (data model, photo handling, catalog and grid rules, persistence, backup validation) is public under the PolyForm Noncommercial License 1.0.0, with 344 passing tests.
 - **Built with AI coding agents.** I set the product direction and ship the releases; Claude (Anthropic) and Codex (OpenAI) helped with code and documentation. Creative ideas by Omucat.
