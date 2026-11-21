@@ -1,0 +1,15 @@
+{{/*
+  One-line summary for a homepage paper card. Input: publication page.
+  Uses `home_summary`; otherwise the first sentence of `summary` (or all of it when no sentence end is found).
+  Returns rendered HTML, or "" when there is no summary.
+*/}}
+{{ $s := "" }}
+{{ with .Params.home_summary }}
+  {{ $s = . }}
+{{ else }}
+  {{ with .Params.summary }}
+    {{ $m := findRE `^.*?[.!?](?:\s|$)` . 1 }}
+    {{ if $m }}{{ $s = index $m 0 }}{{ else }}{{ $s = . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ return ($s | markdownify) }}

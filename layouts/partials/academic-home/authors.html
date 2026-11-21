@@ -1,0 +1,2 @@
+{{/* Author line for a homepage paper card; the site owner is bolded. Inputs: dict "page" "person". */}}
+<p class="authors">{{ range $i, $author := .page.Params.authors }}{{ if $i }}, {{ end }}{{ if eq $author $.person.Title }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p>

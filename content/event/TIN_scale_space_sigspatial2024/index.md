@@ -1,7 +1,8 @@
 ---
-title: 'Presentation of Scale Space for TINs @ ACM SIGSPATIAL2024'
+title: 'Presentation of Scale Space for TINs @ ACM SIGSPATIAL 2024'
 
 event: '32nd ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems'
+event_short: 'ACM SIGSPATIAL 2024 · Atlanta, GA'
 event_url: https://sigspatial2024.sigspatial.org/
 
 location: 'Atlanta, GA, USA'

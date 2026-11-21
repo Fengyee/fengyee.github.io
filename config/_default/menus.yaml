@@ -1,27 +1,20 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#   The weight parameter defines the order that the links will appear in.
+#   /cv/ redirects to the CV set in content/_index.md (layouts/cv/single.html).
 
 main:
-  - name: Bio
-    url: /
-    weight: 9
-  - name: News
-    url: /#news
+  - name: Publications
+    url: publication/
     weight: 10
-  - name: Recent Publications
-    url: /#publications
-    weight: 11
-  - name: Presentations
-    url: /#talks
-    weight: 12
-  - name: Education & Experience
-    url: experience/
+  - name: Talks
+    url: event/
     weight: 20
-  - name: Projects
-    url: projects/
+  - name: Experience
+    url: experience/
     weight: 30
-  - name: Services
+  - name: Teaching & Service
     url: services/
     weight: 40
+  - name: CV
+    url: cv/
+    weight: 50

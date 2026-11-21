@@ -2,7 +2,7 @@
 title: News Archive
 ---
 
-* **[Nov. 2026]** New preprint [FFGaussType: Feed-Forward Conversion of Glyph and SVG Geometry into Compact Gaussian Assets](/publication/feng-2026-ffgausstype/), from my 2026 internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/). It brings text and icons into volumetric videos built on 4D Gaussians: one 9.1 ms forward pass turns a glyph or SVG outline into a relightable Gaussian asset. Paper on [arXiv](https://arxiv.org/abs/2611.26431), videos on the [project page](https://fengyee.github.io/FFGaussType/). 🔤
+* **[Nov. 2026]** New preprint [FFGaussType: Feed-Forward Conversion of Glyph and SVG Geometry into Compact Gaussian Assets](/publication/feng-2026-ffgausstype/), from my 2026 internship at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/). It brings text and icons into volumetric videos built on 4D Gaussians: one 9.1 ms forward pass turns a glyph or SVG outline into a relightable Gaussian asset. Paper on [arXiv](https://arxiv.org/abs/2611.26431), videos on the [project page](https://fengyee.github.io/FFGaussType/).
 
 * **[Nov. 2026]** At **ACM SIGSPATIAL in Riverside**, I presented [ImplicitTerrainV2](/publication/feng-2026-implicitterrain-v2/) in an oral session and [our work on amortized terrain representations](/publication/feng-2026-amortized-terrain/) in a lightning talk and poster session. Xin Xu, Yutian Tao, and I also participated in the [OASIS Student Challenge](/publication/tao-2026-topology-guided-geoai/) as a team with our urban flood screening project.
 
@@ -24,9 +24,9 @@ title: News Archive
 
 * **[Aug. 2025]** Completed a rewarding summer journey as a **PhD Research Intern** at [Dolby Laboratories – Advanced Technology Group (ATG)](https://www.dolby.com/).  Grateful to my mentor [Harsha Musunuri](https://www.linkedin.com/in/harsha-musunuri/) and manager [Guan-Ming Su](https://www.linkedin.com/in/guan-ming-su-74968b5/) for their guidance and support throughout this internship. 🚀
 
-* **[Oct. 2024]** Our paper [scale space for TINs](https://fengyee.github.io/tin-scale-space) received the **best paper runner-up** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/). 🏆
+* **[Oct. 2024]** Our paper [scale space for TINs](https://fengyee.github.io/tin-scale-space) received the **best paper runner-up** at [ACM SIGSPATIAL 2024](https://sigspatial2024.sigspatial.org/). 🏆
 
-* **[Aug. 2024]** We have one [paper](https://arxiv.org/abs/2409.06638) accepted as **Oral presentation** at [ACM SIGSPAITAL2024](https://sigspatial2024.sigspatial.org/) See you @Georgia. 🎤
+* **[Aug. 2024]** We have one [paper](https://arxiv.org/abs/2409.06638) accepted as **Oral presentation** at [ACM SIGSPATIAL 2024](https://sigspatial2024.sigspatial.org/) See you @Georgia. 🎤
 
 * **[Apr. 2024]** Our paper [ImplicitTerrain](https://fengyee.github.io/implicit-terrain/) is accepted as **Oral presentation** at [INRV2024 (CVPR2024)](https://inrv.github.io/). See you @Seattle. 🌄
 

@@ -1,0 +1,17 @@
+# Share buttons under pages (overrides the Hugo Blox default list): keep the professional ones.
+links:
+  - id: linkedin
+    url: 'https://www.linkedin.com/shareArticle?url={url}&title={title}'
+    title: LinkedIn
+    icon: brands/linkedin
+    enable: true
+  - id: x
+    url: 'https://twitter.com/intent/tweet?url={url}&text={title}'
+    title: X
+    icon: brands/x
+    enable: true
+  - id: email
+    url: 'mailto:?subject={title}&body={url}'
+    title: Email
+    icon: hero/at-symbol
+    enable: true

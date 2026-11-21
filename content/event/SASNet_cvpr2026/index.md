@@ -2,6 +2,7 @@
 title: 'Presentation of SASNet @ CVPR 2026'
 
 event: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)'
+event_short: 'CVPR 2026 · Denver, CO'
 event_url: https://cvpr.thecvf.com/Conferences/2026
 
 location: 'Colorado Convention Center, Denver, CO, USA'
@@ -20,6 +21,10 @@ tags: ['INR', 'Neural Representation', 'Sinusoidal Neural Network', 'Spatial-Ada
 
 # Is this a featured talk? (true/false)
 featured: true
+
+image:
+  caption: 'Presenting the SASNet poster at CVPR 2026 in Denver.'
+  focal_point: Center
 
 url_project: 'https://fengyee.github.io/SASNet_inr/'
 url_slides: ''

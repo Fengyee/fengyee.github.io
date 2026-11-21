@@ -12,12 +12,12 @@ sections:
   - block: collection
     content:
       title: Projects
-      text: Here are a selection of projects that I have worked on over the years.
+      text: 'Things I build outside my research.'
       filters:
         folders:
           - project
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
 ---

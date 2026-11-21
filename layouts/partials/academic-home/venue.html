@@ -1,0 +1,4 @@
+{{/* Short venue label for a homepage paper card: `home_label`, else the `publication` field as plain text. Input: publication page. */}}
+{{ $v := .Params.home_label }}
+{{ if not $v }}{{ $v = .Params.publication | default "" | markdownify | plainify | htmlUnescape }}{{ end }}
+{{ return $v }}

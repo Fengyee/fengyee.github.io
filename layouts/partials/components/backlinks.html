@@ -1,0 +1,21 @@
+{{/* Override of the Hugo Blox backlinks list: the homepage has an empty title, so fall back to the site title instead of rendering an empty link. */}}
+{{/* `ne … false` instead of the theme's `| default true`, which can never be turned off. */}}
+{{ $show_backlinks := ne .Params.backlinks false }}
+{{ if $show_backlinks }}
+  {{ $backlinks := site.Home.Store.Get "backlinks" | uniq }}
+  {{ with (where $backlinks "links_to" .RelPermalink) }}
+  <div class="backlinks">
+    <div class="mb-1 font-semibold tracking-tight">
+      {{ (T "backlinks") | default "Backlinks" }}
+    </div>
+    <ul>
+      {{ range (sort . "page.date" "desc") }}
+      {{ $page := .page }}
+      <li>
+        <a href="{{ $page.relPermalink }}" class="backlink">{{ $page.linkTitle | default site.Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+{{ end }}

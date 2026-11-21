@@ -35,10 +35,13 @@ url_code: 'https://github.com/Fengyee/implicitterrainv2/tree/main/code'
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2605.22556'
- - name: Code
-   url: 'https://github.com/Fengyee/implicitterrainv2/tree/main/code'
 
 url_project: 'https://fengyee.github.io/implicitterrainv2/'
+
+# Homepage card (layouts/partials/blox/academic-home.html)
+home_label: 'ACM SIGSPATIAL 2026 · Oral'
+home_image: 'home.png'
+home_summary: 'Wavelet-guided neural terrain: 66.25 dB PSNR on Swiss tiles, +5.70 dB over prior work with 3.2x fewer parameters, compressed to 1.23 bpp.'
 ---
 
 {{% callout note %}}

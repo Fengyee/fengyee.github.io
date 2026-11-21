@@ -1,0 +1,20 @@
+{{/*
+  Card image for a publication on the homepage.
+  Inputs: dict "page" (publication page) "width" (max output width in px).
+  Uses the bundle resource named in `home_image` when set, otherwise the featured image.
+  Never upscales. Returns a webp image resource, or false.
+*/}}
+{{ $page := .page }}
+{{ $max := .width | default 960 }}
+{{ $img := false }}
+{{ with $page.Params.home_image }}{{ $img = $page.Resources.GetMatch . }}{{ end }}
+{{ if not $img }}{{ $img = partial "functions/get_featured_image.html" $page }}{{ end }}
+{{ $out := false }}
+{{ with $img }}
+  {{ $w := .Width }}
+  {{ if gt $w $max }}{{ $w = $max }}{{ end }}
+  {{/* Small sources get upscaled by the browser; keep them near-lossless so they don't look blocky. */}}
+  {{ $q := cond (lt .Width 800) 92 82 }}
+  {{ $out = .Resize (printf "%dx webp q%d" $w $q) }}
+{{ end }}
+{{ return $out }}

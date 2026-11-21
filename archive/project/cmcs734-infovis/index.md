@@ -1,4 +1,6 @@
 ---
+# Hidden until the project page is written (was "under construction").
+draft: true
 title: "CMCS734 Information Visualization"
 date: 2024-09-15
 tags:

@@ -1,5 +1,7 @@
 
 ---
+# Hidden until the project page is written (was "under construction").
+draft: true
 title: "YelpViz @ HKUST Hackathon 2017"
 date: 2024-09-15
 tags:

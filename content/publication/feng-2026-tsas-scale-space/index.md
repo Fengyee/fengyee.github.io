@@ -42,6 +42,11 @@ url_slides: ''
 image:
   focal_point: 'Center'
   preview_only: false
+
+# Homepage card (layouts/partials/blox/academic-home.html)
+home_label: 'ACM TSAS · 2026'
+home_image: 'home.jpg'
+home_summary: 'Scale-space analysis directly on TINs, with seam-free sampling, improved smoothing, and fully parallel GPU critical-point tracking.'
 ---
 {{% callout note %}}
 Published in **ACM Transactions on Spatial Algorithms and Systems (TSAS)**. This is the extended journal version of our SIGSPATIAL'24 conference paper [Critical Features Tracking on Triangulated Irregular Networks by a Scale-Space Method](../feng-2024-critical/), with new contributions in scale-aware seam-free sampling (S3), improved TIN smoothing, and a fully parallel GPU implementation of critical point tracking.

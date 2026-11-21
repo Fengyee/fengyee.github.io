@@ -33,6 +33,12 @@ url_project: 'https://fengyee.github.io/FFGaussType/'
 links:
   - name: arXiv
     url: 'https://arxiv.org/abs/2611.26431'
+
+# Homepage card (layouts/partials/blox/academic-home.html)
+home_label: 'arXiv 2026 · Dolby ATG internship'
+home_image: 'home.jpg'
+home_video: 'home-loop.mp4'
+home_poster: 'home-loop-poster.jpg'
 ---
 
 {{% callout note %}}

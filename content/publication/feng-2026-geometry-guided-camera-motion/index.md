@@ -14,7 +14,7 @@ publication_types:
 publication: 'In *CVPR 2026 Workshop on Pixel-level Video Understanding in the Wild (PVUW)*'
 doi: '10.48550/arXiv.2603.13119'
 
-abstract: 'Camera motion is a fundamental geometric signal that shapes visual perception and cinematic style, yet current video-capable vision-language models (VideoLLMs) rarely represent it explicitly and often fail on fine-grained motion primitives. We address this gap with a framework of benchmarking, diagnosis, and injection. We curate CameraMotionDataset, a large-scale synthetic dataset with explicit camera control, formulate camera motion as constraint-aware multi-label recognition, and construct a VQA benchmark, CameraMotionVQA. Across diverse off-the-shelf VideoLLMs, we observe substantial errors in recognizing camera motion primitives. Probing experiments on a Qwen2.5-VL vision encoder suggest that camera motion cues are weakly represented, especially in deeper ViT blocks, helping explain the observed failure modes. To bridge this gap without costly training or fine-tuning, we propose a lightweight, model-agnostic pipeline that extracts geometric camera cues from 3D foundation models (3DFMs), predicts constrained motion primitives with a temporal classifier, and injects them into downstream VideoLLM inference via structured prompting. Experiments demonstrate improved motion recognition and more camera-aware model responses, highlighting geometry-driven cue extraction and structured prompting as practical steps toward a camera-aware VideoLLM and VLA system. The dataset and benchmark is publicly available at [*here*](https://huggingface.co/datasets/fengyee/camera-motion-dataset-and-benchmark).'
+abstract: 'Camera motion is a fundamental geometric signal that shapes visual perception and cinematic style, yet current video-capable vision-language models (VideoLLMs) rarely represent it explicitly and often fail on fine-grained motion primitives. We address this gap with a framework of benchmarking, diagnosis, and injection. We curate CameraMotionDataset, a large-scale synthetic dataset with explicit camera control, formulate camera motion as constraint-aware multi-label recognition, and construct a VQA benchmark, CameraMotionVQA. Across diverse off-the-shelf VideoLLMs, we observe substantial errors in recognizing camera motion primitives. Probing experiments on a Qwen2.5-VL vision encoder suggest that camera motion cues are weakly represented, especially in deeper ViT blocks, helping explain the observed failure modes. To bridge this gap without costly training or fine-tuning, we propose a lightweight, model-agnostic pipeline that extracts geometric camera cues from 3D foundation models (3DFMs), predicts constrained motion primitives with a temporal classifier, and injects them into downstream VideoLLM inference via structured prompting. Experiments demonstrate improved motion recognition and more camera-aware model responses, highlighting geometry-driven cue extraction and structured prompting as practical steps toward a camera-aware VideoLLM and VLA system. The dataset and benchmark is publicly available on Hugging Face (see the Dataset link above).'
 
 tags:
   - VideoLLM
@@ -33,6 +33,11 @@ url_dataset: 'https://huggingface.co/datasets/fengyee/camera-motion-dataset-and-
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2603.13119'
+
+# Homepage card (layouts/partials/blox/academic-home.html)
+home_label: 'CVPR 2026 Workshop · PVUW'
+home_image: 'home.jpg'
+home_summary: 'Releases CameraMotionDataset and CameraMotionVQA, locates where VideoLLMs lose camera cues, and injects geometric motion primitives at inference without fine-tuning.'
 ---
 
 {{% callout note %}}

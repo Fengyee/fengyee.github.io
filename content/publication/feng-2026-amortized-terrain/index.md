@@ -38,8 +38,6 @@ url_code: 'https://github.com/Fengyee/huvr_siren/tree/main/code'
 links:
  - name: arXiv
    url: 'https://arxiv.org/abs/2606.00404'
- - name: Code
-   url: 'https://github.com/Fengyee/huvr_siren/tree/main/code'
 
 url_project: 'https://fengyee.github.io/huvr_siren/'
 ---

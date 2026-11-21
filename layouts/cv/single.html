@@ -1,0 +1,15 @@
+{{- /* Redirect /cv/ to the current CV PDF configured in the homepage's academic-home block. */ -}}
+{{- $cv := "" -}}
+{{- range site.Home.Params.sections }}{{ if eq .block "academic-home" }}{{ $cv = .content.cv }}{{ end }}{{ end -}}
+{{- if not $cv }}{{ errorf "cv: set `cv` in the academic-home block of content/_index.md" }}{{ end -}}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CV · {{ site.Title }}</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ $cv | absURL }}">
+<meta http-equiv="refresh" content="0; url={{ $cv | relURL }}">
+</head>
+<body><p>Redirecting to the <a href="{{ $cv | relURL }}">latest CV (PDF)</a>.</p></body>
+</html>
