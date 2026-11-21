@@ -203,10 +203,10 @@
     <div id="talks" class="talks-col">
       <div class="section-heading compact"><h2>Talks</h2><div><a href="{{ "event/" | relURL }}">All talks <span aria-hidden="true">↗</span></a><a href="{{ "services/" | relURL }}">Service <span aria-hidden="true">↗</span></a></div></div>
       <ul class="talk-list">
-        {{ range first 3 .ByDate.Reverse }}
+        {{ range first ($c.talks_count | default 4) .ByDate.Reverse }}
         {{ $t := . }}
         <li>
-          {{ with partial "functions/get_featured_image.html" . }}{{ $img := .Fill "192x144 Center webp q80" }}<a class="talk-thumb" href="{{ $t.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $img.RelPermalink }}" width="96" height="72" alt="" loading="lazy"></a>{{ end }}
+          {{ with partial "functions/get_featured_image.html" . }}{{ $img := .Fill "240x180 Center webp q80" }}<a class="talk-thumb" href="{{ $t.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ $img.RelPermalink }}" width="120" height="90" alt="" loading="lazy"></a>{{ end }}
           <div><p class="venue">{{ .Date | time.Format "Jan 2006" }}</p><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>{{ with .Params.event_short | default .Params.event }}<p class="talk-event">{{ . | markdownify }}</p>{{ end }}</div>
         </li>
         {{ end }}

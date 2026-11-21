@@ -22,6 +22,10 @@ tags: ['INR', 'Neural Representation', 'Sinusoidal Neural Network', 'Spatial-Ada
 # Is this a featured talk? (true/false)
 featured: true
 
+image:
+  caption: 'Presenting the SASNet poster at CVPR 2026 in Denver.'
+  focal_point: Center
+
 url_project: 'https://fengyee.github.io/SASNet_inr/'
 url_slides: ''
 url_video: 'https://www.youtube.com/watch?v=mds9ux0_X-8'

@@ -49,6 +49,8 @@ sections:
         text: '**Bella**, my cat, and the muse behind Meowverse.'
       # Homepage shows the first N news items; the full list stays on /news/.
       news_count: 4
+      # Homepage shows the N most recent talks; the full list stays on /event/.
+      talks_count: 4
       selected:
         - feng-2026-ffgausstype
         - feng-2026-sasnet

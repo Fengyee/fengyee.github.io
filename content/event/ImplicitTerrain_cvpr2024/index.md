@@ -1,5 +1,5 @@
 ---
-title: 'Presentation of ImplicitTerrain @ CVPR2024 INRV Workshop'
+title: 'Presentation of ImplicitTerrain @ CVPR 2024 INRV Workshop'
 
 event: '1st Workshop on Implicit Neural Representation for Vision (CVPR2024)'
 event_short: 'CVPR 2024 INRV Workshop · Seattle, WA'
